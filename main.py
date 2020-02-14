@@ -1,17 +1,18 @@
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
+import tqdm
 def draw_graph():
     match_path='2020_Problem_D_DATA/matches.csv'
     passings='2020_Problem_D_DATA/passingevents.csv'
     fullevents='2020_Problem_D_DATA/fullevents.csv'
     fp=pd.read_csv(passings)
     matchID=list(set(fp['MatchID']))
-    for id in matchID:
+    for id in tqdm.tqdm(matchID,total=len(matchID)):
         match_passing=fp[fp.MatchID==id]
         all_team_id=set(match_passing['TeamID'])
-        graph=nx.DiGraph()
         for team_id in all_team_id:
+            graph=nx.DiGraph()
             sub_matching=match_passing[match_passing.TeamID==team_id]
             for index in sub_matching.index:
                 team_id=match_passing.loc[index,'TeamID']
@@ -27,13 +28,12 @@ def draw_graph():
                     (dst_id,{'id':dst_id,'coord':dst_coord,'team_id':team_id,'match_time:':match_time,'match_period':match_period})
                 ])
                 graph.add_edge(original_id,dst_id)
-            fig = plt.figure()
             pos = nx.spring_layout(graph)
             nx.draw_networkx_nodes(graph, pos, node_color='black')
             nx.draw_networkx_edges(graph, pos, edge_color='red')
-            plt.title('{}_{}_passing.png'.format(id,team_id))
-            fig.show()
-            break
-        break
+            plt.title('{}_{}_passing graph'.format(id,team_id))
+            plt.savefig('passing_graphs/macthid_{}_teamid_{}_passing_graphs.png'.format(id,team_id))
+            plt.close()
+            graph.clear()
 if __name__=='__main__':
     draw_graph()
