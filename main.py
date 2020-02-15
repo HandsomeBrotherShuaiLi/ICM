@@ -1,7 +1,8 @@
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
-import tqdm
+from matplotlib.font_manager import FontProperties
+import tqdm,json
 match_path='2020_Problem_D_DATA/matches.csv'
 passings='2020_Problem_D_DATA/passingevents.csv'
 fullevents='2020_Problem_D_DATA/fullevents.csv'
@@ -42,15 +43,92 @@ def draw_graph():
 def draw_full_events_ball_count():
     fp=pd.read_csv(fullevents)
     match_ID=set(fp['MatchID'])
+    mapping={}
+    plt.rc('font',family='Times New Roman')
+    ax=plt.gca()
+    ax.spines['right'].set_color("none")
+    ax.spines['top'].set_color("none")
     for id in tqdm.tqdm(match_ID,total=len(match_ID)):
         match_ball_graph=fp[fp.MatchID==id]
         all_team_id=set(match_ball_graph['TeamID'])
         if len(list(all_team_id))!=2:
             raise ValueError('team error!')
-        
+        ball_passing_coord=[]
+        ball_control_player=[]
+        for c,idx in enumerate(match_ball_graph.index):
+            teamID=match_ball_graph.loc[idx,'TeamID']
+            original_player_id=match_ball_graph.loc[idx,'OriginPlayerID']
+            dstplayer_id=match_ball_graph.loc[idx,'DestinationPlayerID']
+            original_x=match_ball_graph.loc[idx,'EventOrigin_x']
+            original_y=match_ball_graph.loc[idx,'EventOrigin_y']
+            dst_x=match_ball_graph.loc[idx,'EventDestination_x']
+            dst_y=match_ball_graph.loc[idx,'EventDestination_y']
+            if pd.isna(dst_x) or pd.isna(dst_y) or pd.isna(original_x) or pd.isna(original_y):
+                continue
+            if teamID.startswith('Opponent'):
+                original_x=100-original_x
+                original_y=100-original_y
+                dst_x=100-dst_x
+                dst_y=100-dst_y
+            original_x,original_y,dst_x,dst_y=int(original_x),int(original_y),int(dst_x),int(dst_y)
+            if c==0:
+                ball_passing_coord.append((original_x,original_y,dst_x,dst_y))
+                ball_control_player.append([original_player_id])
+            else:
+                if (original_x,original_y,dst_x,dst_y)==ball_passing_coord[-1]:
+                    ball_control_player[-1].append(original_player_id)
+                else:
+                    if (original_x,original_y)==(ball_passing_coord[-1][2],ball_passing_coord[-1][3]):
+                        ball_passing_coord.append((original_x,original_y,dst_x,dst_y))
+                        ball_control_player.append([original_player_id])
+                    else:
+                        original_x,original_y=ball_passing_coord[-1][2],ball_passing_coord[-1][3]
+                        if (original_x,original_y,dst_x,dst_y)==ball_passing_coord[-1]:
+                            ball_control_player[-1].append(original_player_id)
+                        else:
+                            ball_passing_coord.append((original_x,original_y,dst_x,dst_y))
+                            ball_control_player.append([original_player_id])
+        assert len(ball_passing_coord)==len(ball_control_player)
+        mapping[id]=[ball_control_player,ball_passing_coord]
+        last_dst=None
+        linesw=0.05
+        for i in range(len(ball_control_player)):
+            players=ball_control_player[i]
+            coord=[j*10000 for j in ball_passing_coord[i]]
+            teams=list(set([j.split('_')[0] for j in players]))
+            if len(teams)==1 and teams[0]=='Huskies':
+                if last_dst==None:
+                    plt.scatter(x=[coord[0],coord[2]],y=[coord[1],coord[3]],
+                                c='red',marker='^',linewidths=linesw)
+                    plt.quiver(coord[0],coord[1],coord[2],coord[3],color='g', width=0.0005)
+                else:
+                    plt.scatter(x=[last_dst[0],coord[2]],y=[last_dst[1],coord[3]],c='red',
+                                marker='^',linewidths=linesw)
+                    plt.quiver(last_dst[0],last_dst[1],coord[2],coord[3],color='g', width=0.0005)
+            elif len(teams)==1 and teams[0].startswith('Opponent'):
+                if last_dst==None:
+                    plt.scatter(x=[coord[0],coord[2]],y=[coord[1],coord[3]],
+                                c='blue',marker='o',linewidths=linesw)
+                    plt.quiver(coord[0],coord[1],coord[2],coord[3],color='g', width=0.0005)
+                else:
+                    plt.scatter(x=[last_dst[0],coord[2]],y=[last_dst[1],coord[3]],c='blue',
+                                marker='o',linewidths=linesw)
+                    plt.quiver(last_dst[0],last_dst[1],coord[2],coord[3],color='g', width=0.0005)
+            else:
+                if last_dst==None:
+                    plt.scatter(x=[coord[0],coord[2]],y=[coord[1],coord[3]],
+                                c='black',marker='o',linewidths=linesw)
+                    plt.quiver(coord[0],coord[1],coord[2],coord[3],color='g', width=0.0005)
+                else:
+                    plt.scatter(x=[last_dst[0],coord[2]],y=[last_dst[1],coord[3]],c='black',
+                            marker='o',linewidths=linesw)
+                    plt.quiver(last_dst[0],last_dst[1],coord[2],coord[3],color='g', width=0.0005)
 
-
+            last_dst=(coord[2],coord[3])
+        plt.savefig('ball_graphs/{}_full_events.png'.format(id),dpi=300)
+        plt.close()
+    json.dump(mapping,open('all_match_mapping.json','w',encoding='utf-8'))
 
 
 if __name__=='__main__':
-    draw_graph()
+    draw_full_events_ball_count()
