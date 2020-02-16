@@ -39,7 +39,7 @@ def draw_graph():
             plt.close()
             graph.clear()
 
-def draw_full_events_ball_count():
+def draw_full_events_ball_count(draw_pic=False):
     fp=pd.read_csv(fullevents)
     match_ID=set(fp['MatchID'])
     mapping={}
@@ -89,43 +89,44 @@ def draw_full_events_ball_count():
                             ball_control_player.append([original_player_id])
         assert len(ball_passing_coord)==len(ball_control_player)
         mapping[id]=[ball_control_player,ball_passing_coord]
-        last_dst=None
-        linesw=0.05
-        for i in range(len(ball_control_player)):
-            players=ball_control_player[i]
-            coord=[j*10000 for j in ball_passing_coord[i]]
-            teams=list(set([j.split('_')[0] for j in players]))
-            if len(teams)==1 and teams[0]=='Huskies':
-                if last_dst==None:
-                    plt.scatter(x=[coord[0],coord[2]],y=[coord[1],coord[3]],
+        if draw_pic:
+            last_dst=None
+            linesw=0.05
+            for i in range(len(ball_control_player)):
+                players=ball_control_player[i]
+                coord=[j*10000 for j in ball_passing_coord[i]]
+                teams=list(set([j.split('_')[0] for j in players]))
+                if len(teams)==1 and teams[0]=='Huskies':
+                    if last_dst==None:
+                        plt.scatter(x=[coord[0],coord[2]],y=[coord[1],coord[3]],
                                 c='red',marker='^',linewidths=linesw)
-                    plt.quiver(coord[0],coord[1],coord[2],coord[3],color='g', width=0.0005)
-                else:
-                    plt.scatter(x=[last_dst[0],coord[2]],y=[last_dst[1],coord[3]],c='red',
+                        plt.quiver(coord[0],coord[1],coord[2],coord[3],color='g', width=0.0005)
+                    else:
+                        plt.scatter(x=[last_dst[0],coord[2]],y=[last_dst[1],coord[3]],c='red',
                                 marker='^',linewidths=linesw)
-                    plt.quiver(last_dst[0],last_dst[1],coord[2],coord[3],color='g', width=0.0005)
-            elif len(teams)==1 and teams[0].startswith('Opponent'):
-                if last_dst==None:
-                    plt.scatter(x=[coord[0],coord[2]],y=[coord[1],coord[3]],
+                        plt.quiver(last_dst[0],last_dst[1],coord[2],coord[3],color='g', width=0.0005)
+                elif len(teams)==1 and teams[0].startswith('Opponent'):
+                    if last_dst==None:
+                        plt.scatter(x=[coord[0],coord[2]],y=[coord[1],coord[3]],
                                 c='blue',marker='o',linewidths=linesw)
-                    plt.quiver(coord[0],coord[1],coord[2],coord[3],color='g', width=0.0005)
-                else:
-                    plt.scatter(x=[last_dst[0],coord[2]],y=[last_dst[1],coord[3]],c='blue',
+                        plt.quiver(coord[0],coord[1],coord[2],coord[3],color='g', width=0.0005)
+                    else:
+                        plt.scatter(x=[last_dst[0],coord[2]],y=[last_dst[1],coord[3]],c='blue',
                                 marker='o',linewidths=linesw)
-                    plt.quiver(last_dst[0],last_dst[1],coord[2],coord[3],color='g', width=0.0005)
-            else:
-                if last_dst==None:
-                    plt.scatter(x=[coord[0],coord[2]],y=[coord[1],coord[3]],
-                                c='black',marker='o',linewidths=linesw)
-                    plt.quiver(coord[0],coord[1],coord[2],coord[3],color='g', width=0.0005)
+                        plt.quiver(last_dst[0],last_dst[1],coord[2],coord[3],color='g', width=0.0005)
                 else:
-                    plt.scatter(x=[last_dst[0],coord[2]],y=[last_dst[1],coord[3]],c='black',
-                            marker='o',linewidths=linesw)
-                    plt.quiver(last_dst[0],last_dst[1],coord[2],coord[3],color='g', width=0.0005)
+                    if last_dst==None:
+                        plt.scatter(x=[coord[0],coord[2]],y=[coord[1],coord[3]],
+                                c='black',marker='o',linewidths=linesw)
+                        plt.quiver(coord[0],coord[1],coord[2],coord[3],color='g', width=0.0005)
+                    else:
+                        plt.scatter(x=[last_dst[0],coord[2]],y=[last_dst[1],coord[3]],c='black',
+                                marker='o',linewidths=linesw)
+                        plt.quiver(last_dst[0],last_dst[1],coord[2],coord[3],color='g', width=0.0005)
 
-            last_dst=(coord[2],coord[3])
-        plt.savefig('ball_graphs/{}_full_events.png'.format(id),dpi=300)
-        plt.close()
+                last_dst=(coord[2],coord[3])
+            plt.savefig('ball_graphs/{}_full_events.png'.format(id),dpi=300)
+            plt.close()
     json.dump(mapping,open('all_match_mapping.json','w',encoding='utf-8'))
 
 def conduct_new_passing_tables():
