@@ -2,7 +2,7 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
-import tqdm,json
+import tqdm,json,math
 match_path='2020_Problem_D_DATA/matches.csv'
 passings='2020_Problem_D_DATA/passingevents.csv'
 fullevents='2020_Problem_D_DATA/fullevents.csv'
@@ -24,7 +24,6 @@ def draw_graph():
                 dst_id=match_passing.loc[index,'DestinationPlayerID']
                 match_period=match_passing.loc[index,'MatchPeriod']
                 match_time=match_passing.loc[index,'EventTime']
-                type=match_passing.loc[index,'EventSubType']
                 graph.add_nodes_from([
                     (original_id,{'id':original_id,'coord':original_coord,'team_id':team_id,'match_time':match_time,'match_period':match_period}),
                     (dst_id,{'id':dst_id,'coord':dst_coord,'team_id':team_id,'match_time:':match_time,'match_period':match_period})
@@ -129,6 +128,39 @@ def draw_full_events_ball_count():
         plt.close()
     json.dump(mapping,open('all_match_mapping.json','w',encoding='utf-8'))
 
-
+def conduct_new_passing_tables():
+    fp=pd.read_csv(passings)
+    match_id=list(set(fp['MatchID']))
+    for id in tqdm.tqdm(match_id,total=len(match_id)):
+        match_passing=fp[fp.MatchID==id]
+        node=pd.DataFrame()
+        edge=pd.DataFrame()
+        for c,idx in enumerate(match_passing.index):
+            original_x=match_passing.loc[idx,'EventOrigin_x']
+            original_y=match_passing.loc[idx,'EventOrigin_y']
+            dst_x=match_passing.loc[idx,'EventDestination_x']
+            dst_y=match_passing.loc[idx,'EventDestination_y']
+            if match_passing.loc[idx,'TeamID'].startswith('Opponent'):
+                original_x=100-original_x
+                original_y=100-original_y
+                dst_x=100-dst_x
+                dst_y=100-dst_y
+            original_x,original_y,dst_x,dst_y=int(original_x),int(original_y),int(dst_x),int(dst_y)
+            node=node.append({'Id':int(c),'Label':match_passing.loc[idx,'OriginPlayerID']},
+                             ignore_index=True)
+            edge=edge.append({
+                'Source':match_passing.loc[idx,'OriginPlayerID'],
+                'Target':match_passing.loc[idx,'DestinationPlayerID'],
+                'EventTime':round(float(match_passing.loc[idx,'EventTime']),2),
+                'EventSubType':match_passing.loc[idx,'EventSubType'],
+                'MatchPeriod':match_passing.loc[idx,'MatchPeriod'].strip('H'),
+                'EventOrigin_x':original_x,
+                'EventOrigin_y':original_y,
+                'EventDestination_x':dst_x,
+                'EventDestination_y':dst_y,
+                'Distance':round(math.sqrt((original_x-dst_x)**2+(original_y-dst_y)**2),2)
+            },ignore_index=True)
+        node.to_csv('new_passing_tables/passingevents_{}_node.csv'.format(id),index=False)
+        edge.to_csv('new_passing_tables/passingevents_{}_edge.csv'.format(id),index=False)
 if __name__=='__main__':
-    draw_full_events_ball_count()
+    conduct_new_passing_tables()
