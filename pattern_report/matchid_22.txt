@@ -1,0 +1,626 @@
+From time: 4.913272000000006 to time: 21.60187400000001, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_D7', 'Opponent5_M5', 'Opponent5_D6', 'Opponent5_M4', 'Opponent5_D5']
+From time: 21.60187400000001 to time: 25.807038999999968, Huskies team took dyadic, with players:['Huskies_D5', 'Huskies_M12'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 25.807038999999968 to time: 26.216520000000006, Huskies team took dyadic, with players:['Opponent5_M4', 'Huskies_M3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M3'] 
+From time: 26.216520000000006 to time: 28.382808000000008, Huskies team took dyadic, with players:['Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 28.382808000000008 to time: 29.30367000000001, Huskies team took dyadic, with players:['Opponent5_D7', 'Huskies_M12'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M12'] 
+From time: 29.30367000000001 to time: 35.09738499999997, Huskies team takes dyadic, with players:['Huskies_M12']
+From time: 35.09738499999997 to time: 43.55251800000002, Opponent5 team takes dyadic, with players:['Opponent5_G1']
+From time: 43.55251800000002 to time: 45.46658200000002, Huskies team took dyadic, with players:['Huskies_D1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 45.46658200000002 to time: 47.412995000000016, Opponent5 team took dyadic, with players:['Huskies_M4', 'Opponent5_M7'], and teams:Huskies started to take control of the ball by player:['Opponent5_M7'] 
+From time: 47.412995000000016 to time: 66.62190199999998, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_M7', 'Opponent5_M1', 'Opponent5_M4']
+From time: 66.62190199999998 to time: 71.546851, Huskies team takes dyadic, with players:['Huskies_F2', 'Huskies_D5']
+From time: 71.546851 to time: 74.118517, Opponent5 team takes triadic configuration, with players:['Opponent5_M6', 'Opponent5_M4', 'Opponent5_F3']
+From time: 74.118517 to time: 76.61898300000001, Huskies team takes dyadic, with players:['Huskies_M4']
+From time: 76.61898300000001 to time: 92.49064499999996, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_M7', 'Opponent5_F3']
+From time: 92.49064499999996 to time: 92.791404, Huskies team takes dyadic, with players:['Huskies_G1']
+From time: 92.791404 to time: 105.208442, Opponent5 team takes dyadic, with players:['Opponent5_M5']
+From time: 105.208442 to time: 114.15162800000002, Huskies team takes dyadic, with players:['Huskies_G1', 'Huskies_D1']
+From time: 114.15162800000002 to time: 115.96871599999996, Opponent5 team took dyadic, with players:['Opponent5_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 115.96871599999996 to time: 121.55576100000002, Opponent5 team took dyadic, with players:['Opponent5_D6', 'Huskies_F4'], and teams:Huskies started to take control of the ball by player:['Opponent5_G1'] 
+From time: 121.55576100000002 to time: 127.923047, Opponent5 team took dyadic, with players:['Opponent5_M7', 'Opponent5_G1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 127.923047 to time: 132.50434199999998, Huskies team took team formations, with players:['Huskies_M4', 'Huskies_D1', 'Opponent5_M5', 'Opponent5_F3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M3'] 
+From time: 132.50434199999998 to time: 134.951326, Huskies team took dyadic, with players:['Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 134.951326 to time: 137.173829, Huskies team took dyadic, with players:['Huskies_M9', 'Opponent5_M1'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 137.173829 to time: 138.642071, Huskies team took dyadic, with players:['Huskies_M9'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 138.642071 to time: 139.49021699999997, Huskies team took dyadic, with players:['Opponent5_D6', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F4'] 
+From time: 139.49021699999997 to time: 141.78509000000003, Huskies team takes dyadic, with players:['Huskies_F4']
+From time: 141.78509000000003 to time: 180.437801, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M1', 'Opponent5_D6', 'Opponent5_M4', 'Opponent5_D5']
+From time: 180.437801 to time: 183.757048, Huskies team took dyadic, with players:['Huskies_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 183.757048 to time: 185.072347, Huskies team took dyadic, with players:['Opponent5_M4', 'Huskies_M12'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M12'] 
+From time: 185.072347 to time: 186.060046, Huskies team takes dyadic, with players:['Huskies_M12']
+From time: 186.060046 to time: 188.05048200000002, Opponent5 team took dyadic, with players:['Opponent5_M1', 'Opponent5_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 188.05048200000002 to time: 190.712204, Huskies team took dyadic, with players:['Huskies_F2', 'Opponent5_M4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D5'] 
+From time: 190.712204 to time: 191.406247, Huskies team takes dyadic, with players:['Huskies_D5', 'Huskies_D2']
+From time: 191.406247 to time: 193.502463, Opponent5 team takes dyadic, with players:['Opponent5_M4']
+From time: 193.502463 to time: 219.716746, Huskies team took team formations, with players:['Huskies_M4', 'Huskies_M12', 'Huskies_F2', 'Huskies_F4', 'Huskies_D5', 'Huskies_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 219.716746 to time: 222.964125, Huskies team took dyadic, with players:['Opponent5_D5', 'Huskies_M9'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 222.964125 to time: 224.85797599999998, Huskies team took dyadic, with players:['Huskies_M9', 'Huskies_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 224.85797599999998 to time: 228.15935299999998, Huskies team took dyadic, with players:['Huskies_M4', 'Opponent5_D6'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 228.15935299999998 to time: 232.59167599999998, Huskies team takes dyadic, with players:['Huskies_M9', 'Huskies_D6']
+From time: 232.59167599999998 to time: 234.930416, Opponent5 team takes dyadic, with players:['Opponent5_D5']
+From time: 234.930416 to time: 235.730886, Huskies team takes dyadic, with players:['Huskies_F2']
+From time: 235.730886 to time: 275.28358199999997, Opponent5 team takes dyadic, with players:['Opponent5_D1']
+From time: 275.28358199999997 to time: 310.160993, Huskies team takes dyadic, with players:['Huskies_F2', 'Huskies_D6']
+From time: 310.160993 to time: 313.498737, Opponent5 team takes dyadic, with players:['Opponent5_G1']
+From time: 313.498737 to time: 314.835557, Huskies team took dyadic, with players:['Huskies_D1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 314.835557 to time: 315.98447400000003, Huskies team took dyadic, with players:['Opponent5_D5', 'Huskies_M9'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 315.98447400000003 to time: 317.220065, Huskies team took dyadic, with players:['Huskies_M9'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 317.220065 to time: 320.627985, Huskies team took dyadic, with players:['Opponent5_D6', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F4'] 
+From time: 320.627985 to time: 324.8208590000001, Huskies team takes dyadic, with players:['Huskies_F2', 'Huskies_F4']
+From time: 324.8208590000001 to time: 342.473851, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D7', 'Opponent5_M1', 'Opponent5_M4', 'Opponent5_F3']
+From time: 342.473851 to time: 344.697587, Huskies team takes dyadic, with players:['Huskies_D2', 'Huskies_M3']
+From time: 344.697587 to time: 347.226402, Opponent5 team took dyadic, with players:['Opponent5_M5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 347.226402 to time: 349.7240960000001, Opponent5 team took dyadic, with players:['Opponent5_M5', 'Huskies_M3'], and teams:Huskies started to take control of the ball by player:['Opponent5_M5'] 
+From time: 349.7240960000001 to time: 369.69148800000005, Opponent5 team takes dyadic, with players:['Opponent5_M5']
+From time: 369.69148800000005 to time: 375.42149, Huskies team took triadic configuration, with players:['Huskies_M4', 'Huskies_D1', 'Huskies_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 375.42149 to time: 395.860021, Opponent5 team took dyadic, with players:['Opponent5_D6', 'Huskies_F4'], and teams:Huskies started to take control of the ball by player:['Opponent5_D5'] 
+From time: 395.860021 to time: 400.467549, Opponent5 team takes dyadic, with players:['Opponent5_D5', 'Opponent5_M7']
+From time: 400.467549 to time: 402.430115, Huskies team takes dyadic, with players:['Huskies_M9']
+From time: 402.430115 to time: 403.426661, Opponent5 team took dyadic, with players:['Opponent5_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 403.426661 to time: 404.800156, Huskies team took dyadic, with players:['Huskies_D1', 'Opponent5_F3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D6'] 
+From time: 404.800156 to time: 408.720123, Huskies team took dyadic, with players:['Huskies_F2', 'Huskies_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 408.720123 to time: 409.812601, Opponent5 team took dyadic, with players:['Opponent5_M6', 'Huskies_F2'], and teams:Huskies started to take control of the ball by player:['Opponent5_M6'] 
+From time: 409.812601 to time: 429.96947800000004, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_D7', 'Opponent5_D6', 'Opponent5_M4', 'Opponent5_M7']
+From time: 429.96947800000004 to time: 485.183216, Huskies team took team formations, with players:['Huskies_D5', 'Huskies_D6', 'Huskies_M3', 'Huskies_M12'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 485.183216 to time: 489.660902, Opponent5 team took triadic configuration, with players:['Opponent5_D5', 'Huskies_M9', 'Huskies_D6'], and teams:Huskies started to take control of the ball by player:['Opponent5_D5'] 
+From time: 489.660902 to time: 519.261401, Opponent5 team takes dyadic, with players:['Opponent5_D5']
+From time: 519.261401 to time: 526.866761, Huskies team takes dyadic, with players:['Huskies_F2']
+From time: 526.866761 to time: 533.677427, Opponent5 team takes dyadic, with players:['Opponent5_M6']
+From time: 533.677427 to time: 541.577138, Huskies team took triadic configuration, with players:['Huskies_G1', 'Huskies_D5', 'Huskies_M12'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 541.577138 to time: 543.698629, Huskies team took dyadic, with players:['Opponent5_D1', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D5'] 
+From time: 543.698629 to time: 546.7988280000001, Huskies team took dyadic, with players:['Huskies_D5', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 546.7988280000001 to time: 549.269328, Huskies team took dyadic, with players:['Huskies_M4', 'Opponent5_M7'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M4'] 
+From time: 549.269328 to time: 555.791626, Huskies team takes dyadic, with players:['Huskies_M4']
+From time: 555.791626 to time: 572.2662019999999, Opponent5 team takes team formations, with players:['Opponent5_M1', 'Opponent5_D7', 'Opponent5_M5', 'Opponent5_M4', 'Opponent5_M7']
+From time: 572.2662019999999 to time: 587.006213, Huskies team took team formations, with players:['Huskies_F2', 'Huskies_D1', 'Huskies_D5', 'Huskies_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 587.006213 to time: 590.4651200000001, Huskies team took dyadic, with players:['Opponent5_D5', 'Huskies_M9'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 590.4651200000001 to time: 595.105215, Huskies team took dyadic, with players:['Huskies_M9', 'Huskies_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 595.105215 to time: 621.994862, Huskies team took dyadic, with players:['Opponent5_D6', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F2'] 
+From time: 621.994862 to time: 625.4551280000001, Huskies team takes dyadic, with players:['Huskies_F2']
+From time: 625.4551280000001 to time: 627.861, Opponent5 team takes dyadic, with players:['Opponent5_D5', 'Opponent5_M4']
+From time: 627.861 to time: 650.1870150000001, Huskies team takes dyadic, with players:['Huskies_M12']
+From time: 650.1870150000001 to time: 650.207945, Opponent5 team takes dyadic, with players:['Opponent5_D5']
+From time: 650.207945 to time: 650.851855, Huskies team takes dyadic, with players:['Huskies_M9']
+From time: 650.851855 to time: 652.603764, Opponent5 team took dyadic, with players:['Opponent5_M7'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 652.603764 to time: 659.000612, Huskies team took team formations, with players:['Huskies_M4', 'Opponent5_M1', 'Huskies_M9', 'Opponent5_D5', 'Opponent5_M7'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 659.000612 to time: 670.4595879999999, Huskies team takes dyadic, with players:['Huskies_M9']
+From time: 670.4595879999999 to time: 675.263745, Opponent5 team takes dyadic, with players:['Opponent5_G1']
+From time: 675.263745 to time: 676.65408, Huskies team took dyadic, with players:['Huskies_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 676.65408 to time: 677.985937, Huskies team took dyadic, with players:['Opponent5_M6', 'Huskies_M12'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M12'] 
+From time: 677.985937 to time: 708.966952, Huskies team took team formations, with players:['Huskies_M4', 'Huskies_M12', 'Huskies_F2', 'Huskies_D5', 'Huskies_D6', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 708.966952 to time: 710.305282, Huskies team took dyadic, with players:['Opponent5_M6', 'Huskies_F2'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F2'] 
+From time: 710.305282 to time: 730.982516, Huskies team takes team formations, with players:['Huskies_M4', 'Huskies_F2', 'Huskies_M9', 'Huskies_D5', 'Huskies_D6', 'Huskies_M3']
+From time: 730.982516 to time: 743.02822, Opponent5 team takes triadic configuration, with players:['Opponent5_M6', 'Opponent5_M4', 'Opponent5_G1']
+From time: 743.02822 to time: 746.960783, Huskies team took dyadic, with players:['Huskies_D1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 746.960783 to time: 750.0011360000002, Opponent5 team took dyadic, with players:['Huskies_M4', 'Opponent5_M1'], and teams:Huskies started to take control of the ball by player:['Opponent5_M1'] 
+From time: 750.0011360000002 to time: 804.6728780000002, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M1', 'Opponent5_D7', 'Opponent5_M5', 'Opponent5_D6', 'Opponent5_D5', 'Opponent5_M7', 'Opponent5_F3']
+From time: 804.6728780000002 to time: 809.6316179999999, Huskies team takes dyadic, with players:['Huskies_M12']
+From time: 809.6316179999999 to time: 888.858534, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M1', 'Opponent5_D7', 'Opponent5_M5', 'Opponent5_G1', 'Opponent5_D6', 'Opponent5_M4', 'Opponent5_D5', 'Opponent5_F3']
+From time: 888.858534 to time: 891.4291470000002, Huskies team takes dyadic, with players:['Huskies_F4']
+From time: 891.4291470000002 to time: 891.539223, Opponent5 team takes dyadic, with players:['Opponent5_D6']
+From time: 891.539223 to time: 893.5869499999999, Huskies team takes dyadic, with players:['Huskies_D1', 'Huskies_M3']
+From time: 893.5869499999999 to time: 929.259402, Opponent5 team takes dyadic, with players:['Opponent5_F3']
+From time: 929.259402 to time: 943.770825, Huskies team takes dyadic, with players:['Huskies_G1']
+From time: 943.770825 to time: 948.7870449999999, Opponent5 team takes dyadic, with players:['Opponent5_D5', 'Opponent5_M5']
+From time: 948.7870449999999 to time: 951.776883, Huskies team took dyadic, with players:['Huskies_M9'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 951.776883 to time: 966.808166, Opponent5 team took triadic configuration, with players:['Opponent5_M6', 'Huskies_F2', 'Opponent5_M7'], and teams:Huskies started to take control of the ball by player:['Opponent5_D5'] 
+From time: 966.808166 to time: 970.779195, Opponent5 team took dyadic, with players:['Opponent5_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 970.779195 to time: 978.157712, Huskies team took dyadic, with players:['Opponent5_M7', 'Huskies_M9'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D6'] 
+From time: 978.157712 to time: 1005.259224, Huskies team took team formations, with players:['Huskies_G1', 'Huskies_D2', 'Huskies_D5', 'Huskies_D6', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1005.259224 to time: 1008.931509, Opponent5 team took dyadic, with players:['Huskies_D5', 'Opponent5_M4'], and teams:Huskies started to take control of the ball by player:['Opponent5_M4'] 
+From time: 1008.931509 to time: 1010.475194, Opponent5 team takes dyadic, with players:['Opponent5_M6', 'Opponent5_M4']
+From time: 1010.475194 to time: 1028.229852, Huskies team takes triadic configuration, with players:['Huskies_M4', 'Huskies_F2', 'Huskies_M3']
+From time: 1028.229852 to time: 1030.130147, Opponent5 team took dyadic, with players:['Opponent5_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1030.130147 to time: 1033.8569300000001, Huskies team took team formations, with players:['Opponent5_M7', 'Huskies_D6', 'Opponent5_M5', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F4'] 
+From time: 1033.8569300000001 to time: 1035.150735, Huskies team took dyadic, with players:['Huskies_F4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1035.150735 to time: 1037.2808810000001, Huskies team took dyadic, with players:['Huskies_M4', 'Opponent5_M1'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M4'] 
+From time: 1037.2808810000001 to time: 1037.812526, Huskies team takes dyadic, with players:['Huskies_M4']
+From time: 1037.812526 to time: 1066.525163, Opponent5 team takes dyadic, with players:['Opponent5_D1']
+From time: 1066.525163 to time: 1069.949191, Huskies team takes dyadic, with players:['Huskies_F2']
+From time: 1069.949191 to time: 1073.191952, Opponent5 team takes dyadic, with players:['Opponent5_M5', 'Opponent5_D7']
+From time: 1073.191952 to time: 1091.158369, Huskies team takes dyadic, with players:['Huskies_M9']
+From time: 1091.158369 to time: 1100.581383, Opponent5 team takes dyadic, with players:['Opponent5_D1', 'Opponent5_G1']
+From time: 1100.581383 to time: 1113.9167519999999, Huskies team takes team formations, with players:['Huskies_F2', 'Huskies_D6', 'Huskies_D2', 'Huskies_M3']
+From time: 1113.9167519999999 to time: 1115.707659, Opponent5 team takes dyadic, with players:['Opponent5_D1']
+From time: 1115.707659 to time: 1121.6018800000002, Huskies team took dyadic, with players:['Huskies_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1121.6018800000002 to time: 1126.339193, Huskies team took dyadic, with players:['Opponent5_D6', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F4'] 
+From time: 1126.339193 to time: 1126.642909, Huskies team takes dyadic, with players:['Huskies_F4']
+From time: 1126.642909 to time: 1127.419455, Opponent5 team takes dyadic, with players:['Opponent5_D6']
+From time: 1127.419455 to time: 1129.687134, Huskies team takes dyadic, with players:['Huskies_M9', 'Huskies_F4']
+From time: 1129.687134 to time: 1132.839347, Opponent5 team takes dyadic, with players:['Opponent5_M1']
+From time: 1132.839347 to time: 1166.822214, Huskies team takes dyadic, with players:['Huskies_F2']
+From time: 1166.822214 to time: 1169.652175, Opponent5 team took dyadic, with players:['Opponent5_G1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1169.652175 to time: 1171.5198599999999, Opponent5 team took dyadic, with players:['Opponent5_M7', 'Huskies_D1'], and teams:Huskies started to take control of the ball by player:['Opponent5_M5'] 
+From time: 1171.5198599999999 to time: 1173.2376769999998, Opponent5 team takes dyadic, with players:['Opponent5_M7', 'Opponent5_M5']
+From time: 1173.2376769999998 to time: 1173.890865, Huskies team took dyadic, with players:['Huskies_M9'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1173.890865 to time: 1176.351247, Opponent5 team took dyadic, with players:['Huskies_M9', 'Opponent5_M7'], and teams:Huskies started to take control of the ball by player:['Opponent5_M7'] 
+From time: 1176.351247 to time: 1218.7517050000001, Opponent5 team takes dyadic, with players:['Opponent5_M7']
+From time: 1218.7517050000001 to time: 1221.94855, Huskies team took dyadic, with players:['Huskies_G1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1221.94855 to time: 1223.5389380000001, Opponent5 team took dyadic, with players:['Huskies_M4', 'Opponent5_D6'], and teams:Huskies started to take control of the ball by player:['Opponent5_M5'] 
+From time: 1223.5389380000001 to time: 1225.274351, Opponent5 team takes dyadic, with players:['Opponent5_M5']
+From time: 1225.274351 to time: 1225.382716, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 1225.382716 to time: 1227.157463, Opponent5 team takes dyadic, with players:['Opponent5_F3']
+From time: 1227.157463 to time: 1238.688099, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 1238.688099 to time: 1251.766622, Opponent5 team took team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M1', 'Opponent5_D7'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1251.766622 to time: 1255.2587039999999, Opponent5 team took dyadic, with players:['Opponent5_M6', 'Huskies_F2'], and teams:Huskies started to take control of the ball by player:['Opponent5_D1'] 
+From time: 1255.2587039999999 to time: 1265.024668, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M1', 'Opponent5_M4', 'Opponent5_F3']
+From time: 1265.024668 to time: 1268.676742, Huskies team took dyadic, with players:['Huskies_G1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1268.676742 to time: 1271.817026, Opponent5 team took dyadic, with players:['Opponent5_M6', 'Huskies_M4'], and teams:Huskies started to take control of the ball by player:['Opponent5_M6'] 
+From time: 1271.817026 to time: 1290.822947, Opponent5 team takes dyadic, with players:['Opponent5_M6']
+From time: 1290.822947 to time: 1302.810622, Huskies team takes triadic configuration, with players:['Huskies_F2', 'Huskies_D1', 'Huskies_D2']
+From time: 1302.810622 to time: 1351.697639, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_M1', 'Opponent5_D7', 'Opponent5_M5', 'Opponent5_M4', 'Opponent5_D5']
+From time: 1351.697639 to time: 1364.512319, Huskies team takes dyadic, with players:['Huskies_D2', 'Huskies_F4']
+From time: 1364.512319 to time: 1379.623798, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_M7', 'Opponent5_F3']
+From time: 1379.623798 to time: 1386.03699, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 1386.03699 to time: 1393.550232, Opponent5 team takes dyadic, with players:['Opponent5_D6', 'Opponent5_M1']
+From time: 1393.550232 to time: 1408.276079, Huskies team took triadic configuration, with players:['Huskies_F2', 'Huskies_M9', 'Huskies_M12'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1408.276079 to time: 1410.393085, Huskies team took dyadic, with players:['Opponent5_D1', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F4'] 
+From time: 1410.393085 to time: 1412.176733, Huskies team takes dyadic, with players:['Huskies_F4']
+From time: 1412.176733 to time: 1439.9567220000001, Opponent5 team takes dyadic, with players:['Opponent5_D6']
+From time: 1439.9567220000001 to time: 1442.357704, Huskies team took dyadic, with players:['Huskies_F2'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1442.357704 to time: 1442.433563, Huskies team took dyadic, with players:['Huskies_D1', 'Opponent5_D1'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D1'] 
+From time: 1442.433563 to time: 1444.769169, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 1444.769169 to time: 1452.9827070000001, Opponent5 team takes dyadic, with players:['Opponent5_G1']
+From time: 1452.9827070000001 to time: 1455.343017, Huskies team took dyadic, with players:['Huskies_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1455.343017 to time: 1456.9800460000001, Huskies team took dyadic, with players:['Huskies_D1', 'Opponent5_F3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M4'] 
+From time: 1456.9800460000001 to time: 1470.658298, Huskies team takes team formations, with players:['Huskies_M4', 'Huskies_F2', 'Huskies_F4', 'Huskies_D5', 'Huskies_M3']
+From time: 1470.658298 to time: 1478.552704, Opponent5 team takes triadic configuration, with players:['Opponent5_M7', 'Opponent5_M5', 'Opponent5_M4']
+From time: 1478.552704 to time: 1479.6953210000001, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 1479.6953210000001 to time: 1482.928775, Opponent5 team takes dyadic, with players:['Opponent5_M5']
+From time: 1482.928775 to time: 1488.1297539999998, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 1488.1297539999998 to time: 1529.744539, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M5', 'Opponent5_M1']
+From time: 1529.744539 to time: 1547.602301, Huskies team takes dyadic, with players:['Huskies_G1']
+From time: 1547.602301 to time: 1550.202407, Opponent5 team took dyadic, with players:['Opponent5_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1550.202407 to time: 1550.275446, Huskies team took dyadic, with players:['Opponent5_M7', 'Huskies_M3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M3'] 
+From time: 1550.275446 to time: 1552.257922, Huskies team takes dyadic, with players:['Huskies_M3']
+From time: 1552.257922 to time: 1554.6956910000001, Opponent5 team took dyadic, with players:['Opponent5_M5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1554.6956910000001 to time: 1596.495653, Opponent5 team took dyadic, with players:['Huskies_D1', 'Opponent5_M5'], and teams:Huskies started to take control of the ball by player:['Opponent5_M4'] 
+From time: 1596.495653 to time: 1597.0440720000001, Opponent5 team took dyadic, with players:['Opponent5_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1597.0440720000001 to time: 1598.54016, Opponent5 team took dyadic, with players:['Opponent5_D6', 'Huskies_D2'], and teams:Huskies started to take control of the ball by player:['Opponent5_D6'] 
+From time: 1598.54016 to time: 1600.283029, Opponent5 team takes dyadic, with players:['Opponent5_D6']
+From time: 1600.283029 to time: 1616.1053650000001, Huskies team takes dyadic, with players:['Huskies_G1', 'Huskies_D1']
+From time: 1616.1053650000001 to time: 1626.279652, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_M4', 'Opponent5_D5', 'Opponent5_M7']
+From time: 1626.279652 to time: 1627.523799, Huskies team took dyadic, with players:['Huskies_D1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1627.523799 to time: 1629.79114, Huskies team took dyadic, with players:['Huskies_D2', 'Opponent5_M4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D1'] 
+From time: 1629.79114 to time: 1642.017008, Huskies team took team formations, with players:['Huskies_F2', 'Huskies_D1', 'Huskies_D5', 'Huskies_F4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1642.017008 to time: 1644.613244, Opponent5 team took triadic configuration, with players:['Opponent5_M6', 'Opponent5_D7', 'Huskies_F4'], and teams:Huskies started to take control of the ball by player:['Opponent5_D1'] 
+From time: 1644.613244 to time: 1672.0121800000002, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M1', 'Opponent5_D6', 'Opponent5_D5', 'Opponent5_M7', 'Opponent5_F3']
+From time: 1672.0121800000002 to time: 1688.742514, Huskies team takes triadic configuration, with players:['Huskies_G1', 'Huskies_D5', 'Huskies_F4']
+From time: 1688.742514 to time: 1735.22225, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_D7', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_M4', 'Opponent5_D5', 'Opponent5_M7']
+From time: 1735.22225 to time: 1735.734481, Huskies team takes dyadic, with players:['Huskies_D5']
+From time: 1735.734481 to time: 1739.371423, Opponent5 team takes triadic configuration, with players:['Opponent5_M6', 'Opponent5_M7', 'Opponent5_D7']
+From time: 1739.371423 to time: 1739.99309, Huskies team took dyadic, with players:['Huskies_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1739.99309 to time: 1742.6377, Huskies team took dyadic, with players:['Opponent5_M6', 'Huskies_F2'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F2'] 
+From time: 1742.6377 to time: 1751.7521239999999, Huskies team took triadic configuration, with players:['Huskies_M4', 'Huskies_F2', 'Huskies_M12'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1751.7521239999999 to time: 1754.10757, Huskies team took dyadic, with players:['Opponent5_D7', 'Huskies_M12'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M12'] 
+From time: 1754.10757 to time: 1782.829006, Huskies team takes dyadic, with players:['Huskies_M12']
+From time: 1782.829006 to time: 1784.3375059999996, Opponent5 team takes dyadic, with players:['Opponent5_D5']
+From time: 1784.3375059999996 to time: 1787.664979, Huskies team takes dyadic, with players:['Huskies_M3']
+From time: 1787.664979 to time: 1791.291102, Opponent5 team takes dyadic, with players:['Opponent5_M6']
+From time: 1791.291102 to time: 1806.218687, Huskies team takes team formations, with players:['Huskies_G1', 'Huskies_D1', 'Huskies_D6', 'Huskies_D2']
+From time: 1806.218687 to time: 1849.106289, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_D6', 'Opponent5_D5', 'Opponent5_M7', 'Opponent5_F3']
+From time: 1849.106289 to time: 1852.184762, Huskies team takes dyadic, with players:['Huskies_D6']
+From time: 1852.184762 to time: 1872.086889, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_D6', 'Opponent5_M7']
+From time: 1872.086889 to time: 1891.849121, Huskies team took team formations, with players:['Huskies_G1', 'Huskies_F2', 'Huskies_D2', 'Huskies_D5', 'Huskies_D1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1891.849121 to time: 1896.6363399999998, Opponent5 team took team formations, with players:['Opponent5_D5', 'Huskies_M9', 'Huskies_D6', 'Opponent5_M7'], and teams:Huskies started to take control of the ball by player:['Opponent5_M7'] 
+From time: 1896.6363399999998 to time: 1897.348115, Opponent5 team took dyadic, with players:['Opponent5_M7'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1897.348115 to time: 1897.787664, Huskies team took dyadic, with players:['Huskies_M9', 'Opponent5_M7'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 1897.787664 to time: 1901.628094, Huskies team took dyadic, with players:['Huskies_M9'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1901.628094 to time: 1905.505279, Opponent5 team took triadic configuration, with players:['Huskies_M4', 'Opponent5_M7', 'Opponent5_M1'], and teams:Huskies started to take control of the ball by player:['Opponent5_D5'] 
+From time: 1905.505279 to time: 1909.337778, Opponent5 team takes dyadic, with players:['Opponent5_D5']
+From time: 1909.337778 to time: 1911.437934, Huskies team takes dyadic, with players:['Huskies_F2', 'Huskies_D6']
+From time: 1911.437934 to time: 1920.816747, Opponent5 team takes dyadic, with players:['Opponent5_M6']
+From time: 1920.816747 to time: 1944.0794309999999, Huskies team took team formations, with players:['Huskies_M4', 'Huskies_F2', 'Huskies_M9', 'Huskies_F4', 'Huskies_D5', 'Huskies_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1944.0794309999999 to time: 1948.0679350000003, Huskies team took dyadic, with players:['Opponent5_D7', 'Huskies_M12'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M12'] 
+From time: 1948.0679350000003 to time: 1948.8469120000002, Huskies team takes dyadic, with players:['Huskies_M12']
+From time: 1948.8469120000002 to time: 1951.2956390000002, Opponent5 team takes dyadic, with players:['Opponent5_D1']
+From time: 1951.2956390000002 to time: 1959.008782, Huskies team took triadic configuration, with players:['Huskies_F2', 'Huskies_D2', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1959.008782 to time: 1959.869151, Huskies team took dyadic, with players:['Huskies_D5', 'Opponent5_D7'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D5'] 
+From time: 1959.869151 to time: 1960.035118, Huskies team took dyadic, with players:['Huskies_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1960.035118 to time: 1962.852516, Huskies team took dyadic, with players:['Opponent5_D1', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F4'] 
+From time: 1962.852516 to time: 1965.331007, Huskies team took dyadic, with players:['Huskies_F4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1965.331007 to time: 1967.292237, Huskies team took dyadic, with players:['Huskies_M4', 'Opponent5_D5'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M4'] 
+From time: 1967.292237 to time: 1969.0268429999999, Huskies team takes dyadic, with players:['Huskies_M4']
+From time: 1969.0268429999999 to time: 1973.8391589999999, Opponent5 team took dyadic, with players:['Opponent5_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1973.8391589999999 to time: 1974.887298, Opponent5 team took dyadic, with players:['Huskies_D1', 'Opponent5_F3'], and teams:Huskies started to take control of the ball by player:['Opponent5_M5'] 
+From time: 1974.887298 to time: 1977.00084, Opponent5 team took dyadic, with players:['Opponent5_M5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1977.00084 to time: 1992.934254, Opponent5 team took dyadic, with players:['Huskies_D6', 'Opponent5_F3'], and teams:Huskies started to take control of the ball by player:['Opponent5_D5'] 
+From time: 1992.934254 to time: 2019.681976, Opponent5 team took team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M1', 'Opponent5_M4', 'Opponent5_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2019.681976 to time: 2021.359655, Huskies team took dyadic, with players:['Huskies_D5', 'Opponent5_M5'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D2'] 
+From time: 2021.359655 to time: 2023.393203, Huskies team takes dyadic, with players:['Huskies_F2', 'Huskies_D2']
+From time: 2023.393203 to time: 2024.383678, Opponent5 team takes dyadic, with players:['Opponent5_M6']
+From time: 2024.383678 to time: 2025.652377, Huskies team takes dyadic, with players:['Huskies_F2']
+From time: 2025.652377 to time: 2056.3491719999997, Opponent5 team takes dyadic, with players:['Opponent5_M6']
+From time: 2056.3491719999997 to time: 2061.306296, Huskies team takes dyadic, with players:['Huskies_G1', 'Huskies_F4']
+From time: 2061.306296 to time: 2062.670185, Opponent5 team takes dyadic, with players:['Opponent5_M7']
+From time: 2062.670185 to time: 2075.565579, Huskies team took team formations, with players:['Huskies_M12', 'Huskies_F2', 'Huskies_M9', 'Huskies_F4', 'Huskies_D6', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2075.565579 to time: 2091.539998, Opponent5 team took dyadic, with players:['Opponent5_M1', 'Huskies_F4'], and teams:Huskies started to take control of the ball by player:['Opponent5_G1'] 
+From time: 2091.539998 to time: 2100.696797, Opponent5 team takes triadic configuration, with players:['Opponent5_D6', 'Opponent5_M1', 'Opponent5_G1']
+From time: 2100.696797 to time: 2106.531869, Huskies team takes triadic configuration, with players:['Huskies_M4', 'Huskies_D5', 'Huskies_M12']
+From time: 2106.531869 to time: 2117.716258, Opponent5 team takes dyadic, with players:['Opponent5_D5', 'Opponent5_D1']
+From time: 2117.716258 to time: 2121.601733, Huskies team takes dyadic, with players:['Huskies_D1', 'Huskies_D6']
+From time: 2121.601733 to time: 2123.038943, Opponent5 team took dyadic, with players:['Opponent5_F3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2123.038943 to time: 2124.2680170000003, Huskies team took dyadic, with players:['Huskies_D1', 'Opponent5_F3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M3'] 
+From time: 2124.2680170000003 to time: 2126.210232, Huskies team took dyadic, with players:['Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2126.210232 to time: 2126.83724, Opponent5 team took dyadic, with players:['Opponent5_D5', 'Huskies_M9'], and teams:Huskies started to take control of the ball by player:['Opponent5_D5'] 
+From time: 2126.83724 to time: 2130.031932, Opponent5 team takes dyadic, with players:['Opponent5_D5', 'Opponent5_M7']
+From time: 2130.031932 to time: 2140.487016, Huskies team takes team formations, with players:['Huskies_M4', 'Huskies_D5', 'Huskies_D6', 'Huskies_M12']
+From time: 2140.487016 to time: 2145.515057, Opponent5 team takes dyadic, with players:['Opponent5_D6']
+From time: 2145.515057 to time: 2155.443975, Huskies team took triadic configuration, with players:['Huskies_F2', 'Huskies_D5', 'Huskies_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2155.443975 to time: 2157.667504, Opponent5 team took dyadic, with players:['Opponent5_D5', 'Huskies_M9'], and teams:Huskies started to take control of the ball by player:['Opponent5_M7'] 
+From time: 2157.667504 to time: 2159.097404, Opponent5 team takes dyadic, with players:['Opponent5_M6', 'Opponent5_M7']
+From time: 2159.097404 to time: 2166.295919, Huskies team takes triadic configuration, with players:['Huskies_M9', 'Huskies_D6', 'Huskies_M3']
+From time: 2166.295919 to time: 2167.9243739999997, Opponent5 team took dyadic, with players:['Opponent5_D1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2167.9243739999997 to time: 2169.7839879999997, Opponent5 team took dyadic, with players:['Opponent5_M7', 'Huskies_M3'], and teams:Huskies started to take control of the ball by player:['Opponent5_M6'] 
+From time: 2169.7839879999997 to time: 2175.170857, Opponent5 team took triadic configuration, with players:['Opponent5_M6', 'Opponent5_M5', 'Opponent5_F3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2175.170857 to time: 2181.810171, Huskies team took triadic configuration, with players:['Huskies_D2', 'Huskies_M3', 'Opponent5_F3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M3'] 
+From time: 2181.810171 to time: 2184.920439, Huskies team took dyadic, with players:['Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2184.920439 to time: 2187.7835760000003, Huskies team took dyadic, with players:['Opponent5_D6', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F4'] 
+From time: 2187.7835760000003 to time: 2204.4947079999997, Huskies team takes dyadic, with players:['Huskies_F4']
+From time: 2204.4947079999997 to time: 2211.722773, Opponent5 team took dyadic, with players:['Opponent5_D1', 'Opponent5_M1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2211.722773 to time: 2215.499613, Huskies team took dyadic, with players:['Huskies_D1', 'Opponent5_F3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D1'] 
+From time: 2215.499613 to time: 2219.702373, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 2219.702373 to time: 2232.040947, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_M7', 'Opponent5_M5', 'Opponent5_M4']
+From time: 2232.040947 to time: 2251.41482, Huskies team takes dyadic, with players:['Huskies_M4']
+From time: 2251.41482 to time: 2257.494799, Opponent5 team takes triadic configuration, with players:['Opponent5_M6', 'Opponent5_M5', 'Opponent5_M4']
+From time: 2257.494799 to time: 2264.990628, Huskies team takes dyadic, with players:['Huskies_F4']
+From time: 2264.990628 to time: 2265.060607, Opponent5 team takes dyadic, with players:['Opponent5_M1']
+From time: 2265.060607 to time: 2267.920898, Huskies team took dyadic, with players:['Huskies_M12'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2267.920898 to time: 2270.96776, Huskies team took dyadic, with players:['Opponent5_D6', 'Huskies_M12'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M12'] 
+From time: 2270.96776 to time: 2274.602018, Huskies team takes dyadic, with players:['Huskies_M9', 'Huskies_M12']
+From time: 2274.602018 to time: 2277.0048260000003, Opponent5 team takes dyadic, with players:['Opponent5_M5']
+From time: 2277.0048260000003 to time: 2300.863478, Huskies team took team formations, with players:['Huskies_M4', 'Huskies_M12', 'Huskies_F2', 'Huskies_D5', 'Huskies_D6', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2300.863478 to time: 2303.101884, Opponent5 team took dyadic, with players:['Opponent5_D5', 'Huskies_M9'], and teams:Huskies started to take control of the ball by player:['Opponent5_D6'] 
+From time: 2303.101884 to time: 2303.517039, Opponent5 team takes dyadic, with players:['Opponent5_D6']
+From time: 2303.517039 to time: 2304.462048, Huskies team takes dyadic, with players:['Huskies_M9']
+From time: 2304.462048 to time: 2321.098736, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D6', 'Opponent5_M7', 'Opponent5_F3']
+From time: 2321.098736 to time: 2343.072556, Huskies team takes dyadic, with players:['Huskies_F2']
+From time: 2343.072556 to time: 2344.8536710000003, Opponent5 team took dyadic, with players:['Opponent5_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2344.8536710000003 to time: 2347.4277309999998, Huskies team took dyadic, with players:['Opponent5_D1', 'Huskies_D2'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M3'] 
+From time: 2347.4277309999998 to time: 2348.3698679999998, Huskies team takes dyadic, with players:['Huskies_M3']
+From time: 2348.3698679999998 to time: 2350.470453, Opponent5 team takes dyadic, with players:['Opponent5_M6']
+From time: 2350.470453 to time: 2351.217345, Huskies team takes dyadic, with players:['Huskies_M4']
+From time: 2351.217345 to time: 2362.127058, Opponent5 team takes dyadic, with players:['Opponent5_M6']
+From time: 2362.127058 to time: 2383.21461, Huskies team takes team formations, with players:['Huskies_M4', 'Huskies_F2', 'Huskies_M9', 'Huskies_D5', 'Huskies_D6']
+From time: 2383.21461 to time: 2428.759818, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_M1', 'Opponent5_D7', 'Opponent5_M5', 'Opponent5_G1', 'Opponent5_M4', 'Opponent5_D5']
+From time: 2428.759818 to time: 2433.740494, Huskies team takes dyadic, with players:['Huskies_D6', 'Huskies_D2']
+From time: 2433.740494 to time: 2435.357716, Opponent5 team takes dyadic, with players:['Opponent5_D6']
+From time: 2435.357716 to time: 2438.452143, Huskies team takes dyadic, with players:['Huskies_M4']
+From time: 2438.452143 to time: 2489.939896, Opponent5 team takes team formations, with players:['Opponent5_D1', 'Opponent5_M5', 'Opponent5_G1', 'Opponent5_D6', 'Opponent5_M7']
+From time: 2489.939896 to time: 2493.292187, Huskies team takes dyadic, with players:['Huskies_G1']
+From time: 2493.292187 to time: 2494.739011, Opponent5 team took dyadic, with players:['Opponent5_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2494.739011 to time: 2498.5787170000003, Huskies team took dyadic, with players:['Huskies_D2', 'Opponent5_F3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D5'] 
+From time: 2498.5787170000003 to time: 2527.468938, Huskies team takes team formations, with players:['Huskies_G1', 'Huskies_F2', 'Huskies_M9', 'Huskies_D2', 'Huskies_F4', 'Huskies_D5', 'Huskies_D6', 'Huskies_M3']
+From time: 2527.468938 to time: 2529.90203, Opponent5 team takes dyadic, with players:['Opponent5_M1']
+From time: 2529.90203 to time: 2531.2734769999997, Huskies team takes dyadic, with players:['Huskies_D6']
+From time: 2531.2734769999997 to time: 2534.563892, Opponent5 team took dyadic, with players:['Opponent5_M6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2534.563892 to time: 2537.015514, Opponent5 team took dyadic, with players:['Huskies_D1', 'Opponent5_F3'], and teams:Huskies started to take control of the ball by player:['Opponent5_F3'] 
+From time: 2537.015514 to time: 2538.496408, Opponent5 team took dyadic, with players:['Opponent5_F3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2538.496408 to time: 2540.3313510000003, Huskies team took dyadic, with players:['Huskies_F2', 'Opponent5_F3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F2'] 
+From time: 2540.3313510000003 to time: 2586.274037, Huskies team takes dyadic, with players:['Huskies_F2']
+From time: 2586.274037 to time: 2588.150831, Opponent5 team takes dyadic, with players:['Opponent5_M4']
+From time: 2588.150831 to time: 2590.542, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 2590.542 to time: 2600.2481190000003, Opponent5 team took triadic configuration, with players:['Opponent5_D1', 'Opponent5_M4', 'Opponent5_G1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2600.2481190000003 to time: 2604.342841, Huskies team took dyadic, with players:['Huskies_D6', 'Opponent5_M5'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D6'] 
+From time: 2604.342841 to time: 2622.2242309999997, Huskies team took dyadic, with players:['Huskies_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2622.2242309999997 to time: 2628.09734, Opponent5 team took team formations, with players:['Opponent5_D5', 'Huskies_M9', 'Opponent5_M5', 'Huskies_M3'], and teams:Huskies started to take control of the ball by player:['Opponent5_M5'] 
+From time: 2628.09734 to time: 2662.49547, Opponent5 team takes dyadic, with players:['Opponent5_M5', 'Opponent5_F3']
+From time: 2662.49547 to time: 2664.4171890000002, Huskies team takes dyadic, with players:['Huskies_M4']
+From time: 2664.4171890000002 to time: 2668.166645, Opponent5 team took dyadic, with players:['Opponent5_F3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2668.166645 to time: 2669.585848, Opponent5 team took dyadic, with players:['Huskies_F2', 'Opponent5_M5'], and teams:Huskies started to take control of the ball by player:['Opponent5_M5'] 
+From time: 2669.585848 to time: 2672.100327, Opponent5 team takes dyadic, with players:['Opponent5_M5', 'Opponent5_M4']
+From time: 2672.100327 to time: 2673.980189, Huskies team takes dyadic, with players:['Huskies_D2']
+From time: 2673.980189 to time: 2683.073398, Opponent5 team took triadic configuration, with players:['Opponent5_M6', 'Opponent5_D6', 'Opponent5_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2683.073398 to time: 2685.065121, Opponent5 team took dyadic, with players:['Opponent5_M7', 'Huskies_D6'], and teams:Huskies started to take control of the ball by player:['Opponent5_M7'] 
+From time: 2685.065121 to time: 2686.957113, Opponent5 team takes dyadic, with players:['Opponent5_M7']
+From time: 2686.957113 to time: 2688.041017, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 2688.041017 to time: 2688.273256, Opponent5 team takes dyadic, with players:['Opponent5_M1']
+From time: 2688.273256 to time: 2689.37817, Huskies team took dyadic, with players:['Huskies_F4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2689.37817 to time: 2693.809504, Huskies team took dyadic, with players:['Opponent5_M1', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F2'] 
+From time: 2693.809504 to time: 2700.85403, Huskies team took dyadic, with players:['Huskies_F2', 'Huskies_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2700.85403 to time: 2702.57186, Opponent5 team took dyadic, with players:['Opponent5_D1', 'Huskies_F4'], and teams:Huskies started to take control of the ball by player:['Opponent5_M6'] 
+From time: 2702.57186 to time: 2734.565084, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D7', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_D5', 'Opponent5_M7', 'Opponent5_F3']
+From time: 2734.565084 to time: 2746.016788, Huskies team took triadic configuration, with players:['Huskies_F2', 'Huskies_D5', 'Huskies_M12'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2746.016788 to time: 2750.812607, Opponent5 team took dyadic, with players:['Opponent5_D1', 'Huskies_F4'], and teams:Huskies started to take control of the ball by player:['Opponent5_D1'] 
+From time: 2750.812607 to time: 2773.8186170000004, Opponent5 team takes dyadic, with players:['Opponent5_D1']
+From time: 2773.8186170000004 to time: 2777.7847260000003, Huskies team took dyadic, with players:['Huskies_F2'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2777.7847260000003 to time: 2779.01927, Opponent5 team took dyadic, with players:['Opponent5_M6', 'Huskies_F4'], and teams:Huskies started to take control of the ball by player:['Opponent5_M6'] 
+From time: 2779.01927 to time: 3.3715080000001763, Opponent5 team takes dyadic, with players:['Opponent5_M6']
+From time: 3.3715080000001763 to time: 8.934617999999773, Huskies team took dyadic, with players:['Huskies_M4', 'Huskies_D1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 8.934617999999773 to time: 10.551629000000046, Opponent5 team took dyadic, with players:['Opponent5_D7', 'Huskies_M12'], and teams:Huskies started to take control of the ball by player:['Opponent5_M4'] 
+From time: 10.551629000000046 to time: 12.791792999999869, Opponent5 team took dyadic, with players:['Opponent5_M6', 'Opponent5_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 12.791792999999869 to time: 16.69286000000011, Opponent5 team took dyadic, with players:['Huskies_D2', 'Opponent5_F3'], and teams:Huskies started to take control of the ball by player:['Opponent5_F3'] 
+From time: 16.69286000000011 to time: 39.38445700000011, Opponent5 team took team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M1', 'Opponent5_D6', 'Opponent5_D5', 'Opponent5_M7', 'Opponent5_F3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 39.38445700000011 to time: 41.33977999999979, Opponent5 team took dyadic, with players:['Opponent5_D5', 'Huskies_M9'], and teams:Huskies started to take control of the ball by player:['Opponent5_D5'] 
+From time: 41.33977999999979 to time: 72.29441899999983, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M5', 'Opponent5_D6', 'Opponent5_D5', 'Opponent5_M7']
+From time: 72.29441899999983 to time: 74.76342999999997, Huskies team takes dyadic, with players:['Huskies_M9']
+From time: 74.76342999999997 to time: 74.89068799999995, Opponent5 team takes dyadic, with players:['Opponent5_D5']
+From time: 74.89068799999995 to time: 77.24002100000007, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 77.24002100000007 to time: 78.69929499999989, Opponent5 team takes dyadic, with players:['Opponent5_M4']
+From time: 78.69929499999989 to time: 103.76450900000007, Huskies team takes dyadic, with players:['Huskies_G1']
+From time: 103.76450900000007 to time: 105.21223400000008, Opponent5 team takes dyadic, with players:['Opponent5_M4']
+From time: 105.21223400000008 to time: 118.99105199999985, Huskies team takes dyadic, with players:['Huskies_M4']
+From time: 118.99105199999985 to time: 125.20392700000002, Opponent5 team takes dyadic, with players:['Opponent5_M6', 'Opponent5_D7']
+From time: 125.20392700000002 to time: 127.85442899999998, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 127.85442899999998 to time: 141.85885899999994, Opponent5 team takes dyadic, with players:['Opponent5_D6']
+From time: 141.85885899999994 to time: 157.60079499999983, Huskies team took team formations, with players:['Huskies_G1', 'Huskies_F2', 'Huskies_D2', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 157.60079499999983 to time: 157.88421500000004, Opponent5 team took dyadic, with players:['Opponent5_D7', 'Huskies_M12'], and teams:Huskies started to take control of the ball by player:['Opponent5_M6'] 
+From time: 157.88421500000004 to time: 167.13831500000015, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D7', 'Opponent5_M1', 'Opponent5_M4', 'Opponent5_F3']
+From time: 167.13831500000015 to time: 178.0192480000001, Huskies team takes triadic configuration, with players:['Huskies_G1', 'Huskies_D2', 'Huskies_F4']
+From time: 178.0192480000001 to time: 207.01107700000009, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D7', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_M7', 'Opponent5_F3']
+From time: 207.01107700000009 to time: 210.69320000000016, Huskies team takes dyadic, with players:['Huskies_D5']
+From time: 210.69320000000016 to time: 248.5346030000001, Opponent5 team took team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_D7', 'Opponent5_M5', 'Opponent5_D6', 'Opponent5_M4', 'Opponent5_D5', 'Opponent5_M7', 'Opponent5_F3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 248.5346030000001 to time: 251.4561520000002, Huskies team took dyadic, with players:['Opponent5_M4', 'Huskies_M3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M3'] 
+From time: 251.4561520000002 to time: 265.1590270000001, Huskies team took team formations, with players:['Huskies_M12', 'Huskies_D5', 'Huskies_G1', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 265.1590270000001 to time: 268.21985300000006, Huskies team took dyadic, with players:['Opponent5_D1', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F4'] 
+From time: 268.21985300000006 to time: 293.116634, Huskies team takes dyadic, with players:['Huskies_F4']
+From time: 293.116634 to time: 362.36177899999984, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_D7', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_D6', 'Opponent5_M4']
+From time: 362.36177899999984 to time: 366.04042100000015, Huskies team takes dyadic, with players:['Huskies_G1']
+From time: 366.04042100000015 to time: 366.33101100000016, Opponent5 team takes dyadic, with players:['Opponent5_D1']
+From time: 366.33101100000016 to time: 369.05934399999984, Huskies team takes dyadic, with players:['Huskies_F4']
+From time: 369.05934399999984 to time: 410.580602, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_M1', 'Opponent5_D7', 'Opponent5_D6', 'Opponent5_M4', 'Opponent5_M7']
+From time: 410.580602 to time: 416.46728200000007, Huskies team takes dyadic, with players:['Huskies_M9', 'Huskies_D6']
+From time: 416.46728200000007 to time: 445.54919800000016, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_G1', 'Opponent5_D6', 'Opponent5_D5', 'Opponent5_F3']
+From time: 445.54919800000016 to time: 455.0477070000002, Huskies team takes dyadic, with players:['Huskies_D5']
+From time: 455.0477070000002 to time: 490.86271600000015, Opponent5 team takes triadic configuration, with players:['Opponent5_D5', 'Opponent5_M7', 'Opponent5_M1']
+From time: 490.86271600000015 to time: 494.1460280000002, Huskies team takes dyadic, with players:['Huskies_G1']
+From time: 494.1460280000002 to time: 495.71225300000015, Opponent5 team takes dyadic, with players:['Opponent5_D6']
+From time: 495.71225300000015 to time: 505.6882679999998, Huskies team takes team formations, with players:['Huskies_M12', 'Huskies_F2', 'Huskies_D6', 'Huskies_M3']
+From time: 505.6882679999998 to time: 515.3546900000001, Opponent5 team takes triadic configuration, with players:['Opponent5_M6', 'Opponent5_D7', 'Opponent5_F3']
+From time: 515.3546900000001 to time: 517.7478430000001, Huskies team takes dyadic, with players:['Huskies_D5']
+From time: 517.7478430000001 to time: 580.0722409999997, Opponent5 team takes team formations, with players:['Opponent5_M1', 'Opponent5_M5', 'Opponent5_M4', 'Opponent5_D5', 'Opponent5_M7', 'Opponent5_F3']
+From time: 580.0722409999997 to time: 584.7043060000002, Huskies team takes dyadic, with players:['Huskies_G1', 'Huskies_F4']
+From time: 584.7043060000002 to time: 624.6865750000002, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_D7', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_D6', 'Opponent5_M4', 'Opponent5_M7', 'Opponent5_F3']
+From time: 624.6865750000002 to time: 646.6647200000002, Huskies team took triadic configuration, with players:['Huskies_G1', 'Huskies_D5', 'Huskies_D1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 646.6647200000002 to time: 647.9896259999999, Huskies team took dyadic, with players:['Opponent5_D6', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F4'] 
+From time: 647.9896259999999 to time: 650.1960210000002, Huskies team took dyadic, with players:['Huskies_F4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 650.1960210000002 to time: 652.23153, Huskies team took dyadic, with players:['Opponent5_D7', 'Huskies_M12'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M12'] 
+From time: 652.23153 to time: 652.795998, Huskies team took dyadic, with players:['Huskies_M12'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 652.795998 to time: 658.3910839999999, Huskies team took dyadic, with players:['Opponent5_D1', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F2'] 
+From time: 658.3910839999999 to time: 660.8864709999998, Huskies team takes dyadic, with players:['Huskies_F2']
+From time: 660.8864709999998 to time: 677.1056319999998, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_M7', 'Opponent5_M4', 'Opponent5_F3']
+From time: 677.1056319999998 to time: 737.7314860000001, Huskies team took triadic configuration, with players:['Huskies_G1', 'Huskies_M4', 'Huskies_D1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 737.7314860000001 to time: 744.7712369999998, Opponent5 team took team formations, with players:['Huskies_M4', 'Opponent5_D7', 'Huskies_M12', 'Opponent5_M1'], and teams:Huskies started to take control of the ball by player:['Opponent5_M4'] 
+From time: 744.7712369999998 to time: 744.9424519999997, Opponent5 team takes dyadic, with players:['Opponent5_M4']
+From time: 744.9424519999997 to time: 760.9915850000003, Huskies team takes dyadic, with players:['Huskies_M12']
+From time: 760.9915850000003 to time: 767.2436590000003, Opponent5 team took dyadic, with players:['Opponent5_D7'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 767.2436590000003 to time: 769.871095, Huskies team took dyadic, with players:['Opponent5_D5', 'Huskies_M9'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 769.871095 to time: 772.768603, Huskies team took dyadic, with players:['Huskies_M9'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 772.768603 to time: 775.0184549999999, Opponent5 team took dyadic, with players:['Huskies_M4', 'Opponent5_M7'], and teams:Huskies started to take control of the ball by player:['Opponent5_M7'] 
+From time: 775.0184549999999 to time: 781.6967719999997, Opponent5 team takes dyadic, with players:['Opponent5_M7']
+From time: 781.6967719999997 to time: 793.06333, Huskies team took team formations, with players:['Huskies_F2', 'Huskies_D5', 'Huskies_D6', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 793.06333 to time: 796.2010529999997, Opponent5 team took dyadic, with players:['Huskies_D6', 'Opponent5_M5'], and teams:Huskies started to take control of the ball by player:['Opponent5_M5'] 
+From time: 796.2010529999997 to time: 798.4550680000003, Opponent5 team took dyadic, with players:['Opponent5_D5', 'Opponent5_M5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 798.4550680000003 to time: 801.2524170000003, Opponent5 team took dyadic, with players:['Opponent5_M7', 'Huskies_M3'], and teams:Huskies started to take control of the ball by player:['Opponent5_M7'] 
+From time: 801.2524170000003 to time: 806.2842719999999, Opponent5 team took dyadic, with players:['Opponent5_M7'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 806.2842719999999 to time: 808.5447119999999, Huskies team took dyadic, with players:['Opponent5_M6', 'Huskies_M12'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M12'] 
+From time: 808.5447119999999 to time: 835.6119549999999, Huskies team takes dyadic, with players:['Huskies_M12']
+From time: 835.6119549999999 to time: 862.6336279999999, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M1', 'Opponent5_D7', 'Opponent5_M5', 'Opponent5_D6', 'Opponent5_M4']
+From time: 862.6336279999999 to time: 871.152673, Huskies team takes dyadic, with players:['Huskies_D5']
+From time: 871.152673 to time: 890.2803520000003, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_M1', 'Opponent5_D7', 'Opponent5_M5', 'Opponent5_M4', 'Opponent5_M7']
+From time: 890.2803520000003 to time: 916.366074, Huskies team takes dyadic, with players:['Huskies_M3']
+From time: 916.366074 to time: 921.405056, Opponent5 team took dyadic, with players:['Opponent5_M5', 'Opponent5_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 921.405056 to time: 925.3427459999997, Opponent5 team took dyadic, with players:['Opponent5_M6', 'Huskies_M12'], and teams:Huskies started to take control of the ball by player:['Opponent5_M6'] 
+From time: 925.3427459999997 to time: 926.3191000000003, Opponent5 team takes dyadic, with players:['Opponent5_M6']
+From time: 926.3191000000003 to time: 928.5711640000001, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 928.5711640000001 to time: 945.595355, Opponent5 team takes team formations, with players:['Opponent5_D6', 'Opponent5_M7', 'Opponent5_M5', 'Opponent5_M1']
+From time: 945.595355 to time: 946.649857, Huskies team takes dyadic, with players:['Huskies_D2']
+From time: 946.649857 to time: 1033.2732039999999, Opponent5 team takes team formations, with players:['Opponent5_M1', 'Opponent5_M5', 'Opponent5_M4', 'Opponent5_M7', 'Opponent5_F3']
+From time: 1033.2732039999999 to time: 1035.4743159999996, Huskies team took dyadic, with players:['Huskies_G1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1035.4743159999996 to time: 1037.776906, Opponent5 team took team formations, with players:['Huskies_M4', 'Opponent5_D6', 'Opponent5_D1', 'Huskies_F4'], and teams:Huskies started to take control of the ball by player:['Opponent5_D1'] 
+From time: 1037.776906 to time: 1045.619681, Opponent5 team takes triadic configuration, with players:['Opponent5_M7', 'Opponent5_D1', 'Opponent5_M5']
+From time: 1045.619681 to time: 1068.664742, Huskies team takes dyadic, with players:['Huskies_G1']
+From time: 1068.664742 to time: 1072.6696149999998, Opponent5 team took dyadic, with players:['Opponent5_D5', 'Opponent5_M7'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1072.6696149999998 to time: 1076.7982330000002, Opponent5 team took triadic configuration, with players:['Opponent5_M7', 'Huskies_D6', 'Huskies_D1'], and teams:Huskies started to take control of the ball by player:['Opponent5_M7'] 
+From time: 1076.7982330000002 to time: 1078.5512250000004, Opponent5 team takes dyadic, with players:['Opponent5_M7']
+From time: 1078.5512250000004 to time: 1102.4746059999998, Huskies team takes dyadic, with players:['Huskies_G1']
+From time: 1102.4746059999998 to time: 1108.2443160000003, Opponent5 team takes triadic configuration, with players:['Opponent5_M1', 'Opponent5_M5', 'Opponent5_M4']
+From time: 1108.2443160000003 to time: 1111.6798419999998, Huskies team takes dyadic, with players:['Huskies_M4']
+From time: 1111.6798419999998 to time: 1122.5389260000004, Opponent5 team took dyadic, with players:['Opponent5_M1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1122.5389260000004 to time: 1123.5750589999998, Opponent5 team took dyadic, with players:['Huskies_M4', 'Opponent5_M5'], and teams:Huskies started to take control of the ball by player:['Opponent5_M5'] 
+From time: 1123.5750589999998 to time: 1123.8458250000003, Opponent5 team takes dyadic, with players:['Opponent5_M5']
+From time: 1123.8458250000003 to time: 1128.2283260000004, Huskies team takes dyadic, with players:['Huskies_M4']
+From time: 1128.2283260000004 to time: 1143.6717369999994, Opponent5 team took team formations, with players:['Opponent5_D6', 'Opponent5_M6', 'Opponent5_D5', 'Opponent5_M1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1143.6717369999994 to time: 1146.7573140000004, Huskies team took dyadic, with players:['Opponent5_M4', 'Huskies_D2'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D2'] 
+From time: 1146.7573140000004 to time: 1159.5401430000004, Huskies team takes dyadic, with players:['Huskies_D5', 'Huskies_D2']
+From time: 1159.5401430000004 to time: 1164.3509700000004, Opponent5 team took dyadic, with players:['Opponent5_M5', 'Opponent5_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1164.3509700000004 to time: 1167.5263320000004, Opponent5 team took dyadic, with players:['Huskies_D1', 'Opponent5_F3'], and teams:Huskies started to take control of the ball by player:['Opponent5_F3'] 
+From time: 1167.5263320000004 to time: 1196.835457, Opponent5 team takes dyadic, with players:['Opponent5_M7', 'Opponent5_F3']
+From time: 1196.835457 to time: 1199.587426, Huskies team took dyadic, with players:['Huskies_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1199.587426 to time: 1202.4575000000004, Huskies team took dyadic, with players:['Huskies_M4', 'Opponent5_M1'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M13'] 
+From time: 1202.4575000000004 to time: 1205.0281370000002, Huskies team takes dyadic, with players:['Huskies_M13', 'Huskies_F4']
+From time: 1205.0281370000002 to time: 1214.5743080000002, Opponent5 team took triadic configuration, with players:['Opponent5_D1', 'Opponent5_M1', 'Opponent5_G1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1214.5743080000002 to time: 1216.4009619999995, Opponent5 team took dyadic, with players:['Opponent5_M7', 'Huskies_D2'], and teams:Huskies started to take control of the ball by player:['Opponent5_M4'] 
+From time: 1216.4009619999995 to time: 1220.5264109999996, Opponent5 team takes dyadic, with players:['Opponent5_M4']
+From time: 1220.5264109999996 to time: 1225.6105669999995, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 1225.6105669999995 to time: 1255.0239949999996, Opponent5 team takes team formations, with players:['Opponent5_D7', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_G1', 'Opponent5_D6', 'Opponent5_M4']
+From time: 1255.0239949999996 to time: 1260.0107630000002, Huskies team takes dyadic, with players:['Huskies_D5']
+From time: 1260.0107630000002 to time: 1272.9393149999996, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_M5', 'Opponent5_D7', 'Opponent5_M4']
+From time: 1272.9393149999996 to time: 1275.4258, Huskies team takes dyadic, with players:['Huskies_D2']
+From time: 1275.4258 to time: 1280.4106119999994, Opponent5 team took dyadic, with players:['Opponent5_D7', 'Opponent5_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1280.4106119999994 to time: 1290.18462, Opponent5 team took dyadic, with players:['Opponent5_M6', 'Huskies_M13'], and teams:Huskies started to take control of the ball by player:['Opponent5_D7'] 
+From time: 1290.18462 to time: 1326.167775, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_D7', 'Opponent5_D6', 'Opponent5_F3']
+From time: 1326.167775 to time: 1329.2052649999996, Huskies team took dyadic, with players:['Huskies_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1329.2052649999996 to time: 1344.1093899999996, Opponent5 team took dyadic, with players:['Huskies_M4', 'Opponent5_M1'], and teams:Huskies started to take control of the ball by player:['Opponent5_D7'] 
+From time: 1344.1093899999996 to time: 1346.3255150000005, Opponent5 team took dyadic, with players:['Opponent5_M5', 'Opponent5_D7'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1346.3255150000005 to time: 1352.9760669999996, Opponent5 team took dyadic, with players:['Opponent5_D7', 'Huskies_M3'], and teams:Huskies started to take control of the ball by player:['Opponent5_D7'] 
+From time: 1352.9760669999996 to time: 1357.4475570000004, Opponent5 team took dyadic, with players:['Opponent5_D7', 'Opponent5_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1357.4475570000004 to time: 1362.156433, Huskies team took triadic configuration, with players:['Huskies_D2', 'Huskies_M3', 'Opponent5_F3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M3'] 
+From time: 1362.156433 to time: 1363.3861209999995, Huskies team took dyadic, with players:['Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1363.3861209999995 to time: 1365.4581970000002, Huskies team took dyadic, with players:['Opponent5_D1', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F4'] 
+From time: 1365.4581970000002 to time: 1366.5823309999996, Huskies team took dyadic, with players:['Huskies_F4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1366.5823309999996 to time: 1367.1727110000004, Huskies team took dyadic, with players:['Opponent5_D1', 'Huskies_M8'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M8'] 
+From time: 1367.1727110000004 to time: 1386.3057529999994, Huskies team takes dyadic, with players:['Huskies_M8']
+From time: 1386.3057529999994 to time: 1391.149574, Opponent5 team takes dyadic, with players:['Opponent5_D7', 'Opponent5_M4']
+From time: 1391.149574 to time: 1391.3651369999998, Huskies team takes dyadic, with players:['Huskies_M8']
+From time: 1391.3651369999998 to time: 1391.582566, Opponent5 team takes dyadic, with players:['Opponent5_M4']
+From time: 1391.582566 to time: 1391.6691790000007, Huskies team takes dyadic, with players:['Huskies_D5']
+From time: 1391.6691790000007 to time: 1400.4558239999994, Opponent5 team took dyadic, with players:['Opponent5_M4', 'Opponent5_D7'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1400.4558239999994 to time: 1401.3804449999998, Opponent5 team took dyadic, with players:['Opponent5_M7', 'Huskies_M3'], and teams:Huskies started to take control of the ball by player:['Opponent5_M7'] 
+From time: 1401.3804449999998 to time: 1416.6685749999995, Opponent5 team took team formations, with players:['Opponent5_M5', 'Opponent5_D6', 'Opponent5_M4', 'Opponent5_D5', 'Opponent5_M7'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1416.6685749999995 to time: 1417.2092389999998, Huskies team took dyadic, with players:['Opponent5_D5', 'Huskies_D6'], and teams:Opponent5 started to take control of the ball by player:['Huskies_G1'] 
+From time: 1417.2092389999998 to time: 1477.8674629999994, Huskies team took team formations, with players:['Huskies_G1', 'Huskies_M4', 'Huskies_D5', 'Huskies_M8', 'Huskies_M9', 'Huskies_D2', 'Huskies_F4', 'Huskies_M13', 'Huskies_D1', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1477.8674629999994 to time: 1482.82492, Huskies team took triadic configuration, with players:['Opponent5_D5', 'Huskies_D6', 'Opponent5_M5'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D6'] 
+From time: 1482.82492 to time: 1483.846485, Huskies team takes dyadic, with players:['Huskies_D6']
+From time: 1483.846485 to time: 1488.901637, Opponent5 team took dyadic, with players:['Opponent5_D5', 'Opponent5_M5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1488.901637 to time: 1495.0788460000006, Huskies team took triadic configuration, with players:['Huskies_M13', 'Opponent5_M7', 'Huskies_M9'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 1495.0788460000006 to time: 1534.1638750000004, Huskies team takes team formations, with players:['Huskies_M4', 'Huskies_M9', 'Huskies_D6', 'Huskies_F4']
+From time: 1534.1638750000004 to time: 1539.1122759999996, Opponent5 team takes dyadic, with players:['Opponent5_G1']
+From time: 1539.1122759999996 to time: 1541.0835399999994, Huskies team took dyadic, with players:['Huskies_M13'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1541.0835399999994 to time: 1543.2939939999994, Huskies team took dyadic, with players:['Opponent5_D6', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M13'] 
+From time: 1543.2939939999994 to time: 1546.3673170000004, Huskies team takes dyadic, with players:['Huskies_M13']
+From time: 1546.3673170000004 to time: 1553.9267369999998, Opponent5 team takes dyadic, with players:['Opponent5_D7']
+From time: 1553.9267369999998 to time: 1557.3235679999998, Huskies team took dyadic, with players:['Huskies_D5', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1557.3235679999998 to time: 1558.729418, Huskies team took dyadic, with players:['Huskies_M4', 'Opponent5_D6'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F4'] 
+From time: 1558.729418 to time: 1559.871569, Huskies team took dyadic, with players:['Huskies_F4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1559.871569 to time: 1562.8578009999999, Huskies team took triadic configuration, with players:['Opponent5_M6', 'Opponent5_D1', 'Huskies_F4'], and teams:Opponent5 started to take control of the ball by player:['Huskies_F4'] 
+From time: 1562.8578009999999 to time: 1563.7608959999998, Huskies team takes dyadic, with players:['Huskies_F4']
+From time: 1563.7608959999998 to time: 1574.5874720000004, Opponent5 team took triadic configuration, with players:['Opponent5_D6', 'Opponent5_M7', 'Opponent5_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1574.5874720000004 to time: 1577.8088669999993, Huskies team took dyadic, with players:['Huskies_D1', 'Opponent5_F3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D1'] 
+From time: 1577.8088669999993 to time: 1595.9819900000002, Huskies team takes team formations, with players:['Huskies_G1', 'Huskies_M9', 'Huskies_D2', 'Huskies_D1', 'Huskies_D6', 'Huskies_M3']
+From time: 1595.9819900000002 to time: 1598.1035499999996, Opponent5 team takes dyadic, with players:['Opponent5_D5']
+From time: 1598.1035499999996 to time: 1603.7937380000005, Huskies team took dyadic, with players:['Huskies_M9', 'Huskies_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1603.7937380000005 to time: 1605.4965810000006, Huskies team took dyadic, with players:['Opponent5_D5', 'Huskies_M9'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 1605.4965810000006 to time: 1607.582174, Huskies team takes dyadic, with players:['Huskies_M9']
+From time: 1607.582174 to time: 1608.3780850000005, Opponent5 team takes dyadic, with players:['Opponent5_D5']
+From time: 1608.3780850000005 to time: 1611.9643130000006, Huskies team takes dyadic, with players:['Huskies_M9', 'Huskies_D2']
+From time: 1611.9643130000006 to time: 1616.25951, Opponent5 team takes dyadic, with players:['Opponent5_M1']
+From time: 1616.25951 to time: 1617.4227560000002, Huskies team took dyadic, with players:['Huskies_M9'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1617.4227560000002 to time: 1618.8226510000006, Huskies team took dyadic, with players:['Opponent5_M7', 'Huskies_D6'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D6'] 
+From time: 1618.8226510000006 to time: 1619.5136590000004, Huskies team takes dyadic, with players:['Huskies_D6']
+From time: 1619.5136590000004 to time: 1620.6288530000004, Opponent5 team takes dyadic, with players:['Opponent5_D6']
+From time: 1620.6288530000004 to time: 1622.1049409999994, Huskies team takes dyadic, with players:['Huskies_M4', 'Huskies_D6']
+From time: 1622.1049409999994 to time: 1624.24391, Opponent5 team takes dyadic, with players:['Opponent5_M6']
+From time: 1624.24391 to time: 1627.2365369999998, Huskies team takes dyadic, with players:['Huskies_M13', 'Huskies_M9']
+From time: 1627.2365369999998 to time: 1655.179634, Opponent5 team takes dyadic, with players:['Opponent5_G1']
+From time: 1655.179634 to time: 1666.9171279999998, Huskies team takes triadic configuration, with players:['Huskies_M4', 'Huskies_D1', 'Huskies_M9']
+From time: 1666.9171279999998 to time: 1670.1728400000004, Opponent5 team took dyadic, with players:['Opponent5_D7'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1670.1728400000004 to time: 1671.3717399999994, Huskies team took dyadic, with players:['Opponent5_D7', 'Huskies_M8'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M8'] 
+From time: 1671.3717399999994 to time: 1672.148075, Huskies team takes dyadic, with players:['Huskies_M8']
+From time: 1672.148075 to time: 1674.2698659999994, Opponent5 team takes dyadic, with players:['Opponent5_D1']
+From time: 1674.2698659999994 to time: 1680.5157529999994, Huskies team took dyadic, with players:['Huskies_M4', 'Huskies_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1680.5157529999994 to time: 1718.1007790000006, Huskies team took dyadic, with players:['Opponent5_D1', 'Huskies_M8'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 1718.1007790000006 to time: 1724.5486380000002, Huskies team takes triadic configuration, with players:['Huskies_M9', 'Huskies_D2', 'Huskies_F4']
+From time: 1724.5486380000002 to time: 1730.0062740000005, Opponent5 team takes triadic configuration, with players:['Opponent5_D5', 'Opponent5_M7', 'Opponent5_M4']
+From time: 1730.0062740000005 to time: 1731.455578, Huskies team took dyadic, with players:['Huskies_D1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1731.455578 to time: 1734.1733739999997, Opponent5 team took dyadic, with players:['Opponent5_M7', 'Huskies_M9'], and teams:Huskies started to take control of the ball by player:['Opponent5_M6'] 
+From time: 1734.1733739999997 to time: 1751.396535, Opponent5 team took dyadic, with players:['Opponent5_M6', 'Opponent5_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1751.396535 to time: 1753.795771, Huskies team took dyadic, with players:['Huskies_M13', 'Opponent5_D7'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M13'] 
+From time: 1753.795771 to time: 1758.1707070000002, Huskies team took dyadic, with players:['Huskies_M13', 'Huskies_M9'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1758.1707070000002 to time: 1761.2609789999995, Opponent5 team took dyadic, with players:['Opponent5_M4', 'Huskies_M8'], and teams:Huskies started to take control of the ball by player:['Opponent5_M4'] 
+From time: 1761.2609789999995 to time: 1800.7926070000005, Opponent5 team takes dyadic, with players:['Opponent5_M4']
+From time: 1800.7926070000005 to time: 1803.220803, Huskies team took dyadic, with players:['Huskies_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1803.220803 to time: 1804.973292, Huskies team took dyadic, with players:['Opponent5_M7', 'Huskies_D1'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M3'] 
+From time: 1804.973292 to time: 1809.650801, Huskies team took dyadic, with players:['Huskies_D6', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1809.650801 to time: 1811.841023, Opponent5 team took dyadic, with players:['Huskies_M4', 'Opponent5_M1'], and teams:Huskies started to take control of the ball by player:['Opponent5_M1'] 
+From time: 1811.841023 to time: 1819.2099649999998, Opponent5 team takes triadic configuration, with players:['Opponent5_D5', 'Opponent5_M7', 'Opponent5_M1']
+From time: 1819.2099649999998 to time: 1835.88639, Huskies team takes team formations, with players:['Huskies_M8', 'Huskies_D5', 'Huskies_D1', 'Huskies_M13', 'Huskies_M3']
+From time: 1835.88639 to time: 1837.871276, Opponent5 team takes dyadic, with players:['Opponent5_M5']
+From time: 1837.871276 to time: 1850.086462, Huskies team took team formations, with players:['Huskies_M9', 'Huskies_F4', 'Huskies_M13', 'Huskies_D6', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1850.086462 to time: 1853.301954, Huskies team took dyadic, with players:['Opponent5_D5', 'Huskies_D6'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D6'] 
+From time: 1853.301954 to time: 1856.0969710000002, Huskies team takes dyadic, with players:['Huskies_D6']
+From time: 1856.0969710000002 to time: 1859.421858, Opponent5 team took triadic configuration, with players:['Opponent5_D5', 'Opponent5_M7', 'Opponent5_D1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1859.421858 to time: 1862.7219050000006, Huskies team took dyadic, with players:['Huskies_M13', 'Opponent5_M5'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M13'] 
+From time: 1862.7219050000006 to time: 1940.264773, Huskies team takes dyadic, with players:['Huskies_M13']
+From time: 1940.264773 to time: 1943.350557, Opponent5 team took dyadic, with players:['Opponent5_G1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1943.350557 to time: 1945.792065, Huskies team took dyadic, with players:['Opponent5_M7', 'Huskies_D1'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M3'] 
+From time: 1945.792065 to time: 1948.505311, Huskies team takes dyadic, with players:['Huskies_M3', 'Huskies_F4']
+From time: 1948.505311 to time: 1954.7034590000005, Opponent5 team took dyadic, with players:['Opponent5_D5', 'Opponent5_M1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 1954.7034590000005 to time: 1972.98921, Opponent5 team took dyadic, with players:['Huskies_D1', 'Opponent5_M5'], and teams:Huskies started to take control of the ball by player:['Opponent5_D5'] 
+From time: 1972.98921 to time: 1980.664946, Opponent5 team takes triadic configuration, with players:['Opponent5_D5', 'Opponent5_M7', 'Opponent5_M5']
+From time: 1980.664946 to time: 2009.792996, Huskies team takes dyadic, with players:['Huskies_G1']
+From time: 2009.792996 to time: 2011.7112690000006, Opponent5 team takes dyadic, with players:['Opponent5_M4']
+From time: 2011.7112690000006 to time: 2020.315466, Huskies team takes triadic configuration, with players:['Huskies_M9', 'Huskies_D6', 'Huskies_F4']
+From time: 2020.315466 to time: 2023.309991, Opponent5 team takes dyadic, with players:['Opponent5_D5']
+From time: 2023.309991 to time: 2024.396074, Huskies team takes dyadic, with players:['Huskies_D6']
+From time: 2024.396074 to time: 2024.983843, Opponent5 team takes dyadic, with players:['Opponent5_M7']
+From time: 2024.983843 to time: 2051.967511, Huskies team takes dyadic, with players:['Huskies_D6']
+From time: 2051.967511 to time: 2064.418739, Opponent5 team took team formations, with players:['Opponent5_M6', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_M4', 'Opponent5_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2064.418739 to time: 2067.8724030000008, Opponent5 team took dyadic, with players:['Huskies_D6', 'Opponent5_F2'], and teams:Huskies started to take control of the ball by player:['Opponent5_F2'] 
+From time: 2067.8724030000008 to time: 2072.178632, Opponent5 team takes triadic configuration, with players:['Opponent5_M7', 'Opponent5_M5', 'Opponent5_F2']
+From time: 2072.178632 to time: 2072.328681, Huskies team took dyadic, with players:['Huskies_D1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2072.328681 to time: 2077.803061, Opponent5 team took team formations, with players:['Opponent5_D5', 'Huskies_M9', 'Huskies_D6', 'Opponent5_F2'], and teams:Huskies started to take control of the ball by player:['Opponent5_F2'] 
+From time: 2077.803061 to time: 2079.6026859999997, Opponent5 team takes dyadic, with players:['Opponent5_F2']
+From time: 2079.6026859999997 to time: 2080.112839000001, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 2080.112839000001 to time: 2081.399092, Opponent5 team takes dyadic, with players:['Opponent5_D5']
+From time: 2081.399092 to time: 2082.8551530000004, Huskies team takes dyadic, with players:['Huskies_M9']
+From time: 2082.8551530000004 to time: 2096.4396290000004, Opponent5 team takes dyadic, with players:['Opponent5_M1']
+From time: 2096.4396290000004 to time: 2098.399329, Huskies team takes dyadic, with players:['Huskies_D6']
+From time: 2098.399329 to time: 2102.9817860000007, Opponent5 team took dyadic, with players:['Opponent5_D5', 'Opponent5_M7'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2102.9817860000007 to time: 2105.350302, Opponent5 team took dyadic, with players:['Huskies_D1', 'Opponent5_M5'], and teams:Huskies started to take control of the ball by player:['Opponent5_M5'] 
+From time: 2105.350302 to time: 2108.996164, Opponent5 team takes dyadic, with players:['Opponent5_M5']
+From time: 2108.996164 to time: 2197.203562, Huskies team takes triadic configuration, with players:['Huskies_G1', 'Huskies_M4', 'Huskies_D1']
+From time: 2197.203562 to time: 2199.2109840000007, Opponent5 team took dyadic, with players:['Opponent5_D7'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2199.2109840000007 to time: 2203.721935, Huskies team took dyadic, with players:['Opponent5_M7', 'Huskies_M3'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D5'] 
+From time: 2203.721935 to time: 2207.1620270000008, Huskies team took dyadic, with players:['Huskies_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2207.1620270000008 to time: 2209.5518850000003, Opponent5 team took dyadic, with players:['Opponent5_M5', 'Huskies_M3'], and teams:Huskies started to take control of the ball by player:['Opponent5_M5'] 
+From time: 2209.5518850000003 to time: 2225.103321, Opponent5 team takes dyadic, with players:['Opponent5_M5']
+From time: 2225.103321 to time: 2228.900425, Huskies team took dyadic, with players:['Huskies_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2228.900425 to time: 2230.777354, Opponent5 team took dyadic, with players:['Opponent5_M7', 'Huskies_D2'], and teams:Huskies started to take control of the ball by player:['Opponent5_D5'] 
+From time: 2230.777354 to time: 2232.1758900000004, Opponent5 team took dyadic, with players:['Opponent5_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2232.1758900000004 to time: 2234.097796, Huskies team took dyadic, with players:['Opponent5_M7', 'Huskies_D2'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D2'] 
+From time: 2234.097796 to time: 2234.23189, Huskies team takes dyadic, with players:['Huskies_D2']
+From time: 2234.23189 to time: 2237.1122800000007, Opponent5 team took dyadic, with players:['Opponent5_M1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2237.1122800000007 to time: 2237.658022, Opponent5 team took dyadic, with players:['Opponent5_M5', 'Huskies_M3'], and teams:Huskies started to take control of the ball by player:['Opponent5_M5'] 
+From time: 2237.658022 to time: 2239.133076, Opponent5 team took dyadic, with players:['Opponent5_M5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2239.133076 to time: 2241.303811, Huskies team took dyadic, with players:['Huskies_D6', 'Opponent5_M5'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D6'] 
+From time: 2241.303811 to time: 2332.209741, Huskies team takes dyadic, with players:['Huskies_D6']
+From time: 2332.209741 to time: 2339.4553560000004, Opponent5 team took triadic configuration, with players:['Opponent5_D6', 'Opponent5_D5', 'Opponent5_M1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2339.4553560000004 to time: 2341.3608600000002, Huskies team took dyadic, with players:['Huskies_D6', 'Opponent5_F2'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D1'] 
+From time: 2341.3608600000002 to time: 2350.3900540000004, Huskies team takes dyadic, with players:['Huskies_G1', 'Huskies_D1']
+From time: 2350.3900540000004 to time: 2356.538285, Opponent5 team takes triadic configuration, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_D7']
+From time: 2356.538285 to time: 2358.261065, Huskies team takes dyadic, with players:['Huskies_D2']
+From time: 2358.261065 to time: 2370.2528429999998, Opponent5 team took dyadic, with players:['Opponent5_M7', 'Opponent5_F2'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2370.2528429999998 to time: 2377.751238, Opponent5 team took dyadic, with players:['Huskies_D6', 'Opponent5_M5'], and teams:Huskies started to take control of the ball by player:['Opponent5_M5'] 
+From time: 2377.751238 to time: 2449.460043, Opponent5 team took team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_M1', 'Opponent5_M5', 'Opponent5_D6', 'Opponent5_M4', 'Opponent5_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2449.460043 to time: 2450.708479, Opponent5 team took dyadic, with players:['Opponent5_D5', 'Huskies_M9'], and teams:Huskies started to take control of the ball by player:['Opponent5_D5'] 
+From time: 2450.708479 to time: 2455.2388, Opponent5 team takes dyadic, with players:['Opponent5_D5', 'Opponent5_M5']
+From time: 2455.2388 to time: 2455.7999120000004, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 2455.7999120000004 to time: 2457.458939, Opponent5 team takes dyadic, with players:['Opponent5_F2']
+From time: 2457.458939 to time: 2459.428027, Huskies team took dyadic, with players:['Huskies_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2459.428027 to time: 2461.449743, Opponent5 team took dyadic, with players:['Opponent5_M1', 'Huskies_F1'], and teams:Huskies started to take control of the ball by player:['Opponent5_M7'] 
+From time: 2461.449743 to time: 2534.6935989999997, Opponent5 team takes team formations, with players:['Opponent5_M6', 'Opponent5_D1', 'Opponent5_D7', 'Opponent5_D5', 'Opponent5_M7']
+From time: 2534.6935989999997 to time: 2540.563825, Huskies team takes dyadic, with players:['Huskies_D6']
+From time: 2540.563825 to time: 2551.790709, Opponent5 team takes triadic configuration, with players:['Opponent5_M6', 'Opponent5_D7', 'Opponent5_G1']
+From time: 2551.790709 to time: 2553.670591, Huskies team took dyadic, with players:['Huskies_D2'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2553.670591 to time: 2555.732798, Opponent5 team took dyadic, with players:['Opponent5_M1', 'Huskies_M3'], and teams:Huskies started to take control of the ball by player:['Opponent5_M1'] 
+From time: 2555.732798 to time: 2575.54381, Opponent5 team takes dyadic, with players:['Opponent5_M1']
+From time: 2575.54381 to time: 2578.779879, Huskies team took dyadic, with players:['Huskies_M13'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2578.779879 to time: 2579.978322, Huskies team took triadic configuration, with players:['Opponent5_D8', 'Opponent5_D5', 'Huskies_D1'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D6'] 
+From time: 2579.978322 to time: 2620.961312000001, Huskies team takes dyadic, with players:['Huskies_D6']
+From time: 2620.961312000001 to time: 2624.618227, Opponent5 team took dyadic, with players:['Opponent5_G1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2624.618227 to time: 2641.4441, Opponent5 team took dyadic, with players:['Opponent5_M7', 'Huskies_D1'], and teams:Huskies started to take control of the ball by player:['Opponent5_D5'] 
+From time: 2641.4441 to time: 2643.659175, Opponent5 team took dyadic, with players:['Opponent5_D5'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2643.659175 to time: 2644.716222, Opponent5 team took dyadic, with players:['Huskies_M9', 'Opponent5_M7'], and teams:Huskies started to take control of the ball by player:['Opponent5_M7'] 
+From time: 2644.716222 to time: 2645.0439690000007, Opponent5 team took dyadic, with players:['Opponent5_M7'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2645.0439690000007 to time: 2647.006052, Opponent5 team took dyadic, with players:['Huskies_D1', 'Opponent5_F2'], and teams:Huskies started to take control of the ball by player:['Opponent5_M7'] 
+From time: 2647.006052 to time: 2669.934412, Opponent5 team takes dyadic, with players:['Opponent5_M7']
+From time: 2669.934412 to time: 2672.1965550000004, Huskies team took dyadic, with players:['Huskies_G1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2672.1965550000004 to time: 2675.679445, Opponent5 team took team formations, with players:['Opponent5_D8', 'Opponent5_M6', 'Huskies_F1', 'Huskies_M3'], and teams:Huskies started to take control of the ball by player:['Opponent5_M1'] 
+From time: 2675.679445 to time: 2678.466437, Opponent5 team takes dyadic, with players:['Opponent5_M1']
+From time: 2678.466437 to time: 2679.673568, Huskies team takes dyadic, with players:['Huskies_M9']
+From time: 2679.673568 to time: 2681.410975, Opponent5 team takes dyadic, with players:['Opponent5_D8']
+From time: 2681.410975 to time: 2704.260063, Huskies team took team formations, with players:['Huskies_F1', 'Huskies_M9', 'Huskies_D2', 'Huskies_M13', 'Huskies_D1', 'Huskies_D6', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2704.260063 to time: 2706.06932, Huskies team took dyadic, with players:['Opponent5_M6', 'Huskies_M13'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M13'] 
+From time: 2706.06932 to time: 2711.4958579999998, Huskies team takes triadic configuration, with players:['Huskies_M13', 'Huskies_M9', 'Huskies_D6']
+From time: 2711.4958579999998 to time: 2730.9268060000004, Opponent5 team takes dyadic, with players:['Opponent5_D1']
+From time: 2730.9268060000004 to time: 2733.735136, Huskies team took dyadic, with players:['Huskies_M4'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2733.735136 to time: 2735.239595, Huskies team took dyadic, with players:['Huskies_D1', 'Opponent5_D1'], and teams:Opponent5 started to take control of the ball by player:['Huskies_D1'] 
+From time: 2735.239595 to time: 2809.336005, Huskies team takes dyadic, with players:['Huskies_D1']
+From time: 2809.336005 to time: 2812.486996, Opponent5 team takes dyadic, with players:['Opponent5_G1']
+From time: 2812.486996 to time: 2824.6388070000007, Huskies team takes dyadic, with players:['Huskies_M9']
+From time: 2824.6388070000007 to time: 2827.061142, Opponent5 team takes dyadic, with players:['Opponent5_D5']
+From time: 2827.061142 to time: 2829.989442, Huskies team took dyadic, with players:['Huskies_D6'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2829.989442 to time: 2832.0492350000004, Opponent5 team took dyadic, with players:['Opponent5_D8', 'Huskies_M4'], and teams:Huskies started to take control of the ball by player:['Opponent5_D8'] 
+From time: 2832.0492350000004 to time: 2844.320441, Opponent5 team takes dyadic, with players:['Opponent5_D8']
+From time: 2844.320441 to time: 2859.023212, Huskies team took team formations, with players:['Huskies_M8', 'Huskies_D2', 'Huskies_D5', 'Huskies_D6', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2859.023212 to time: 2861.5658670000007, Huskies team took dyadic, with players:['Opponent5_D5', 'Huskies_M9'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 2861.5658670000007 to time: 2879.397022, Huskies team took team formations, with players:['Huskies_M9', 'Huskies_D2', 'Huskies_M13', 'Huskies_D1', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2879.397022 to time: 2880.318603, Huskies team took dyadic, with players:['Huskies_M4', 'Opponent5_D6'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M4'] 
+From time: 2880.318603 to time: 2884.439966, Huskies team took dyadic, with players:['Huskies_M4', 'Huskies_M3'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2884.439966 to time: 2885.642461000001, Huskies team took dyadic, with players:['Opponent5_D5', 'Huskies_M9'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 2885.642461000001 to time: 2886.643334000001, Huskies team takes dyadic, with players:['Huskies_M9']
+From time: 2886.643334000001 to time: 2888.94679, Opponent5 team takes dyadic, with players:['Opponent5_D6']
+From time: 2888.94679 to time: 2889.362132, Huskies team took dyadic, with players:['Huskies_D1'], and teams:['Huskies', 'Opponent5'] started to dual 
+From time: 2889.362132 to time: 2891.5974899999997, Huskies team took dyadic, with players:['Huskies_D2', 'Opponent5_F2'], and teams:Opponent5 started to take control of the ball by player:['Huskies_M9'] 
+From time: 2891.5974899999997 to time: 2897.227588, Huskies team takes dyadic, with players:['Huskies_M9', 'Huskies_D2']

@@ -39,7 +39,7 @@ def draw_graph():
             plt.close()
             graph.clear()
 
-def draw_full_events_ball_count(draw_pic=False):
+def draw_full_events_ball_count(draw_pic=False,analysis=True):
     fp=pd.read_csv(fullevents)
     match_ID=set(fp['MatchID'])
     mapping={}
@@ -54,8 +54,10 @@ def draw_full_events_ball_count(draw_pic=False):
             raise ValueError('team error!')
         ball_passing_coord=[]
         ball_control_player=[]
+        ball_control_time=[]
         for c,idx in enumerate(match_ball_graph.index):
             teamID=match_ball_graph.loc[idx,'TeamID']
+            time=match_ball_graph.loc[idx,'EventTime']
             original_player_id=match_ball_graph.loc[idx,'OriginPlayerID']
             dstplayer_id=match_ball_graph.loc[idx,'DestinationPlayerID']
             original_x=match_ball_graph.loc[idx,'EventOrigin_x']
@@ -72,6 +74,7 @@ def draw_full_events_ball_count(draw_pic=False):
             original_x,original_y,dst_x,dst_y=int(original_x),int(original_y),int(dst_x),int(dst_y)
             if c==0:
                 ball_passing_coord.append((original_x,original_y,dst_x,dst_y))
+                ball_control_time.append(time)
                 ball_control_player.append([original_player_id])
             else:
                 if (original_x,original_y,dst_x,dst_y)==ball_passing_coord[-1]:
@@ -79,6 +82,7 @@ def draw_full_events_ball_count(draw_pic=False):
                 else:
                     if (original_x,original_y)==(ball_passing_coord[-1][2],ball_passing_coord[-1][3]):
                         ball_passing_coord.append((original_x,original_y,dst_x,dst_y))
+                        ball_control_time.append(time)
                         ball_control_player.append([original_player_id])
                     else:
                         original_x,original_y=ball_passing_coord[-1][2],ball_passing_coord[-1][3]
@@ -86,9 +90,11 @@ def draw_full_events_ball_count(draw_pic=False):
                             ball_control_player[-1].append(original_player_id)
                         else:
                             ball_passing_coord.append((original_x,original_y,dst_x,dst_y))
+                            ball_control_time.append(time)
                             ball_control_player.append([original_player_id])
         assert len(ball_passing_coord)==len(ball_control_player)
-        mapping[id]=[ball_control_player,ball_passing_coord]
+        assert len(ball_control_player)==len(ball_control_time)
+        mapping[id]=[ball_control_player,ball_passing_coord,ball_control_time]
         if draw_pic:
             last_dst=None
             linesw=0.05
@@ -127,6 +133,53 @@ def draw_full_events_ball_count(draw_pic=False):
                 last_dst=(coord[2],coord[3])
             plt.savefig('ball_graphs/{}_full_events.png'.format(id),dpi=300)
             plt.close()
+        if analysis:
+            report=open('pattern_report/matchid_{}.txt'.format(id),'w',encoding='utf-8')
+            i=0#quick point
+            j=0#slow point
+            while i<len(ball_control_time):
+                teams_i=list(set([p.split('_')[0] for p in ball_control_player[i]]))
+                teams_j=list(set([p.split('_')[0] for p in ball_control_player[j]]))
+                if teams_i==teams_j:
+                    i+=1
+                else:
+                    time_cut=(ball_control_time[j],ball_control_time[i])
+                    temp_p=[]
+                    for play_t in ball_control_player[j:i]:
+                        temp_p+=play_t
+                    temp_p=list(set(temp_p))
+                    if len(temp_p)==3:
+                        patt='triadic configuration'
+                    elif len(temp_p)<=2:
+                        patt='dyadic'
+                    else:
+                        patt='team formations'
+                    if len(teams_i)==1 and len(teams_j)==1:
+                        report.write('From time: {} to time: {}, {} team takes {}, with players:{}\n'.format(
+                            time_cut[0],time_cut[1],teams_j[0],patt,temp_p
+                        ))
+                        j=i
+                        i+=1
+                    elif len(teams_i)>1 and len(teams_j)==1:
+                        report.write('From time: {} to time: {}, {} team took {}, with players:{}, and teams:{} started to dual \n'.format(
+                            time_cut[0],time_cut[1],teams_j[0],patt,temp_p,teams_i
+                        ))
+                        j=i
+                        i+=1
+                    elif len(teams_i)==1 and len(teams_j)>1:
+                        ts=[z for z in teams_j if z not in teams_i]
+                        report.write('From time: {} to time: {}, {} team took {}, with players:{}, and teams:{} started to take control of the ball by player:{} \n'.format(
+                            time_cut[0],time_cut[1],teams_i[0],patt,temp_p,ts[0],ball_control_player[i]
+                        ))
+                        j=i
+                        i+=1
+                    else:
+                        report.write('From time: {} to time: {}, teams:{} were always dualing\n'.format(
+                            time_cut[0],time_cut[1],teams_j
+                        ))
+                        j=i
+                        i+=1
+            report.close()
     json.dump(mapping,open('all_match_mapping.json','w',encoding='utf-8'))
 
 def conduct_new_passing_tables():
@@ -164,4 +217,4 @@ def conduct_new_passing_tables():
         node.to_csv('new_passing_tables/passingevents_{}_node.csv'.format(id),index=False)
         edge.to_csv('new_passing_tables/passingevents_{}_edge.csv'.format(id),index=False)
 if __name__=='__main__':
-    conduct_new_passing_tables()
+    draw_full_events_ball_count(draw_pic=False,analysis=True)
