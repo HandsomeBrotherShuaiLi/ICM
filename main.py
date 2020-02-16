@@ -138,11 +138,13 @@ def draw_full_events_ball_count(draw_pic=False,analysis=True):
             i=0#quick point
             j=0#slow point
             while i<len(ball_control_time):
-                teams_i=list(set([p.split('_')[0] for p in ball_control_player[i]]))
-                teams_j=list(set([p.split('_')[0] for p in ball_control_player[j]]))
+                teams_i=set([p.split('_')[0] for p in ball_control_player[i]])
+                teams_j=set([p.split('_')[0] for p in ball_control_player[j]])
                 if teams_i==teams_j:
                     i+=1
                 else:
+                    teams_j=list(teams_j)
+                    teams_i=list(teams_i)
                     time_cut=(ball_control_time[j],ball_control_time[i])
                     temp_p=[]
                     for play_t in ball_control_player[j:i]:
