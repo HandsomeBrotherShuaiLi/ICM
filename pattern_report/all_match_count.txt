@@ -1,0 +1,269 @@
+********************Match:1********************
+Huskies_dyadic:324
+Opponent1_dyadic:207
+Opponent1_team formations:21
+Huskies_team formations:53
+Huskies_triadic configuration:33
+Opponent1_triadic configuration:18
+********************Match:2********************
+Opponent2_team formations:52
+Huskies_dyadic:305
+Opponent2_dyadic:143
+Huskies_triadic configuration:24
+Huskies_team formations:33
+Opponent2_triadic configuration:25
+********************Match:3********************
+Huskies_dyadic:150
+Opponent3_dyadic:266
+Huskies_team formations:38
+Opponent3_team formations:63
+Huskies_triadic configuration:18
+Opponent3_triadic configuration:32
+********************Match:4********************
+Opponent4_team formations:44
+Huskies_dyadic:312
+Huskies_triadic configuration:30
+Opponent4_dyadic:168
+Huskies_team formations:50
+Opponent4_triadic configuration:27
+********************Match:5********************
+Opponent5_dyadic:149
+Huskies_dyadic:265
+Huskies_team formations:57
+Opponent5_team formations:38
+Opponent5_triadic configuration:26
+Huskies_triadic configuration:29
+********************Match:6********************
+Opponent6_triadic configuration:30
+Huskies_dyadic:314
+Huskies_triadic configuration:31
+Opponent6_dyadic:173
+Opponent6_team formations:31
+Huskies_team formations:51
+********************Match:7********************
+Huskies_dyadic:319
+Opponent7_dyadic:214
+Huskies_team formations:60
+Opponent7_triadic configuration:13
+Huskies_triadic configuration:39
+Opponent7_team formations:17
+********************Match:8********************
+Huskies_dyadic:320
+Opponent8_dyadic:195
+Huskies_team formations:41
+Huskies_triadic configuration:52
+Opponent8_team formations:28
+Opponent8_triadic configuration:29
+********************Match:9********************
+Opponent9_team formations:59
+Opponent9_dyadic:272
+Huskies_dyadic:200
+Opponent9_triadic configuration:36
+Huskies_team formations:23
+Huskies_triadic configuration:18
+********************Match:10********************
+Huskies_dyadic:178
+Opponent10_dyadic:325
+Opponent10_team formations:36
+Huskies_team formations:40
+Opponent10_triadic configuration:35
+Huskies_triadic configuration:22
+********************Match:11********************
+Opponent11_team formations:40
+Huskies_dyadic:373
+Opponent11_dyadic:203
+Huskies_team formations:34
+Opponent11_triadic configuration:29
+Huskies_triadic configuration:39
+********************Match:12********************
+Huskies_triadic configuration:32
+Huskies_team formations:28
+Huskies_dyadic:353
+Opponent12_dyadic:186
+Opponent12_team formations:46
+Opponent12_triadic configuration:28
+********************Match:13********************
+Opponent13_dyadic:309
+Huskies_dyadic:175
+Opponent13_triadic configuration:34
+Huskies_team formations:19
+Opponent13_team formations:62
+Huskies_triadic configuration:20
+********************Match:14********************
+Huskies_dyadic:310
+Opponent14_dyadic:165
+Huskies_triadic configuration:33
+Huskies_team formations:58
+Opponent14_triadic configuration:18
+Opponent14_team formations:44
+********************Match:15********************
+Opponent15_team formations:32
+Huskies_dyadic:198
+Huskies_team formations:28
+Opponent15_dyadic:353
+Huskies_triadic configuration:32
+Opponent15_triadic configuration:25
+********************Match:16********************
+Huskies_dyadic:333
+Opponent16_team formations:75
+Opponent16_triadic configuration:26
+Huskies_team formations:14
+Opponent16_dyadic:150
+Huskies_triadic configuration:25
+********************Match:17********************
+Opponent17_team formations:39
+Huskies_dyadic:324
+Opponent17_triadic configuration:23
+Opponent17_dyadic:179
+Huskies_team formations:45
+Huskies_triadic configuration:25
+********************Match:18********************
+Opponent18_dyadic:156
+Huskies_dyadic:285
+Huskies_team formations:41
+Opponent18_team formations:30
+Opponent18_triadic configuration:25
+Huskies_triadic configuration:31
+********************Match:19********************
+Huskies_triadic configuration:25
+Opponent3_dyadic:300
+Huskies_dyadic:210
+Opponent3_team formations:72
+Huskies_team formations:26
+Opponent3_triadic configuration:45
+********************Match:20********************
+Opponent19_dyadic:341
+Huskies_dyadic:203
+Opponent19_team formations:39
+Opponent19_triadic configuration:35
+Huskies_triadic configuration:25
+Huskies_team formations:24
+********************Match:21********************
+Opponent6_team formations:12
+Huskies_dyadic:366
+Huskies_triadic configuration:35
+Huskies_team formations:53
+Opponent6_dyadic:242
+Opponent6_triadic configuration:36
+********************Match:22********************
+Opponent5_team formations:48
+Huskies_dyadic:332
+Opponent5_dyadic:154
+Opponent5_triadic configuration:23
+Huskies_team formations:38
+Huskies_triadic configuration:31
+********************Match:23********************
+Huskies_dyadic:302
+Opponent4_dyadic:157
+Opponent4_triadic configuration:32
+Huskies_team formations:41
+Huskies_triadic configuration:45
+Opponent4_team formations:55
+********************Match:24********************
+Huskies_dyadic:228
+Opponent19_dyadic:428
+Huskies_triadic configuration:30
+Opponent19_triadic configuration:25
+Opponent19_team formations:38
+Huskies_team formations:37
+********************Match:25********************
+Huskies_triadic configuration:25
+Opponent10_dyadic:320
+Huskies_dyadic:215
+Huskies_team formations:22
+Opponent10_team formations:45
+Opponent10_triadic configuration:28
+********************Match:26********************
+Huskies_dyadic:175
+Opponent9_dyadic:257
+Opponent9_team formations:57
+Opponent5_dyadic:46
+Opponent9_triadic configuration:21
+Huskies_triadic configuration:25
+Huskies_team formations:29
+********************Match:27********************
+Huskies_dyadic:303
+Opponent12_dyadic:199
+Huskies_triadic configuration:25
+Huskies_team formations:42
+Opponent12_team formations:19
+Opponent12_triadic configuration:19
+********************Match:28********************
+Huskies_triadic configuration:34
+Huskies_dyadic:399
+Opponent11_triadic configuration:26
+Opponent11_team formations:25
+Huskies_team formations:31
+Opponent11_dyadic:219
+********************Match:29********************
+Opponent7_dyadic:232
+Huskies_dyadic:386
+Huskies_triadic configuration:33
+Opponent7_team formations:27
+Huskies_team formations:37
+Opponent7_triadic configuration:23
+********************Match:30********************
+Huskies_triadic configuration:35
+Huskies_dyadic:332
+Opponent8_dyadic:205
+Huskies_team formations:40
+Opponent8_triadic configuration:27
+Opponent8_team formations:14
+********************Match:31********************
+Opponent1_dyadic:176
+Huskies_team formations:48
+Huskies_dyadic:279
+Opponent1_triadic configuration:18
+Opponent1_team formations:24
+Huskies_triadic configuration:33
+********************Match:32********************
+Huskies_dyadic:225
+Opponent2_dyadic:92
+Opponent2_team formations:64
+Huskies_team formations:25
+Opponent2_triadic configuration:21
+Huskies_triadic configuration:17
+********************Match:33********************
+Huskies_triadic configuration:34
+Opponent16_dyadic:211
+Huskies_dyadic:324
+Opponent16_team formations:32
+Opponent13_dyadic:84
+Huskies_team formations:35
+Opponent16_triadic configuration:42
+********************Match:34********************
+Huskies_dyadic:330
+Huskies_team formations:45
+Opponent18_dyadic:205
+Huskies_triadic configuration:27
+Opponent18_team formations:23
+Opponent14_dyadic:39
+Opponent18_triadic configuration:28
+********************Match:35********************
+Opponent17_dyadic:250
+Huskies_dyadic:347
+Opponent17_triadic configuration:32
+Huskies_triadic configuration:32
+Huskies_team formations:55
+Opponent17_team formations:19
+********************Match:36********************
+Huskies_dyadic:212
+Opponent15_dyadic:347
+Opponent15_team formations:49
+Huskies_triadic configuration:32
+Huskies_team formations:27
+Opponent15_triadic configuration:33
+********************Match:37********************
+Opponent13_dyadic:327
+Huskies_dyadic:181
+Huskies_triadic configuration:23
+Opponent13_team formations:37
+Huskies_team formations:37
+Opponent13_triadic configuration:28
+********************Match:38********************
+Opponent14_dyadic:134
+Huskies_dyadic:272
+Opponent14_team formations:36
+Huskies_team formations:32
+Huskies_triadic configuration:19
+Opponent14_triadic configuration:27

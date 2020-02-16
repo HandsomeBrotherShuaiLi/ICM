@@ -1,8 +1,8 @@
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
-from matplotlib.font_manager import FontProperties
 import tqdm,json,math
+from collections import defaultdict
 match_path='2020_Problem_D_DATA/matches.csv'
 passings='2020_Problem_D_DATA/passingevents.csv'
 fullevents='2020_Problem_D_DATA/fullevents.csv'
@@ -47,6 +47,7 @@ def draw_full_events_ball_count(draw_pic=False,analysis=True):
     ax=plt.gca()
     ax.spines['right'].set_color("none")
     ax.spines['top'].set_color("none")
+    f=open('pattern_report/all_match_count.txt','w',encoding='utf-8')
     for id in tqdm.tqdm(match_ID,total=len(match_ID)):
         match_ball_graph=fp[fp.MatchID==id]
         all_team_id=set(match_ball_graph['TeamID'])
@@ -137,6 +138,7 @@ def draw_full_events_ball_count(draw_pic=False,analysis=True):
             report=open('pattern_report/matchid_{}.txt'.format(id),'w',encoding='utf-8')
             i=0#quick point
             j=0#slow point
+            count=defaultdict(int)
             while i<len(ball_control_time):
                 teams_i=set([p.split('_')[0] for p in ball_control_player[i]])
                 teams_j=set([p.split('_')[0] for p in ball_control_player[j]])
@@ -160,29 +162,38 @@ def draw_full_events_ball_count(draw_pic=False,analysis=True):
                         report.write('From time: {} to time: {}, {} team takes {}, with players:{}\n'.format(
                             time_cut[0],time_cut[1],teams_j[0],patt,temp_p
                         ))
+                        count[teams_j[0]+'_'+patt]+=1
                         j=i
                         i+=1
                     elif len(teams_i)>1 and len(teams_j)==1:
                         report.write('From time: {} to time: {}, {} team took {}, with players:{}, and teams:{} started to dual \n'.format(
                             time_cut[0],time_cut[1],teams_j[0],patt,temp_p,teams_i
                         ))
+                        count[teams_j[0]+'_'+patt]+=1
                         j=i
                         i+=1
                     elif len(teams_i)==1 and len(teams_j)>1:
                         ts=[z for z in teams_j if z not in teams_i]
-                        report.write('From time: {} to time: {}, {} team took {}, with players:{}, and teams:{} started to take control of the ball by player:{} \n'.format(
+                        report.write('From time: {} to time: {}, {} team took {}, with players:{}, and '
+                                     'teams:{} started to take control of the ball by player:{} \n'.format(
                             time_cut[0],time_cut[1],teams_i[0],patt,temp_p,ts[0],ball_control_player[i]
                         ))
+                        count[teams_j[0]+'_'+patt]+=1
                         j=i
                         i+=1
                     else:
                         report.write('From time: {} to time: {}, teams:{} were always dualing\n'.format(
                             time_cut[0],time_cut[1],teams_j
                         ))
+                        count[teams_j[0]+'_'+patt]+=1
                         j=i
                         i+=1
             report.close()
+            f.write('*'*20+'Match:{}'.format(id)+'*'*20+'\n')
+            for k in count:
+                f.write("{}:{}\n".format(k,count[k]))
     json.dump(mapping,open('all_match_mapping.json','w',encoding='utf-8'))
+    f.close()
 
 def conduct_new_passing_tables():
     fp=pd.read_csv(passings)
