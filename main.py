@@ -229,5 +229,100 @@ def conduct_new_passing_tables():
             },ignore_index=True)
         node.to_csv('new_passing_tables/passingevents_{}_node.csv'.format(id),index=False)
         edge.to_csv('new_passing_tables/passingevents_{}_edge.csv'.format(id),index=False)
+
+def conduct_degree():
+    fp=pd.read_csv(passings)
+    match_ID=set(fp['MatchID'])
+    all_match_degree_in=defaultdict(int)
+    all_match_degree_out=defaultdict(int)
+    all_match_degree={}
+    result=open('all_match_in_out_degree.txt','w',encoding='utf-8')
+    for id in tqdm.tqdm(match_ID,total=len(match_ID)):
+        Ha_degree_in=defaultdict(int)
+        Ha_degree_out=defaultdict(int)
+        Ha_degree_all={}
+        Oppo_degree_in=defaultdict(int)
+        Oppo_degree_out=defaultdict(int)
+        Oppo_degree_all={}
+        match_single=fp[fp.MatchID==id]
+        for idx in match_single.index:
+            if not pd.isna(match_single.loc[idx,'OriginPlayerID']) and match_single.loc[idx,'OriginPlayerID'].startswith('Huskies'):
+                Ha_degree_out[match_single.loc[idx,'OriginPlayerID']]+=1
+                all_match_degree_out[match_single.loc[idx,'OriginPlayerID']]+=1
+            if not pd.isna(match_single.loc[idx,'DestinationPlayerID']) and match_single.loc[idx,'DestinationPlayerID'].startswith('Huskies'):
+                Ha_degree_in[match_single.loc[idx,'DestinationPlayerID']]+=1
+                all_match_degree_in[match_single.loc[idx,'DestinationPlayerID']]+=1
+            if not pd.isna(match_single.loc[idx,'OriginPlayerID']) and match_single.loc[idx,'OriginPlayerID'].startswith('Opponent'):
+                Oppo_degree_out[match_single.loc[idx,'OriginPlayerID']]+=1
+            if not pd.isna(match_single.loc[idx,'DestinationPlayerID']) and match_single.loc[idx,'DestinationPlayerID'].startswith('Opponent'):
+                Oppo_degree_in[match_single.loc[idx,'DestinationPlayerID']]+=1
+        ha_player=set(list(Ha_degree_in.keys())+list(Ha_degree_out.keys()))
+        oppo_player=set(list(Oppo_degree_in.keys())+list(Oppo_degree_out.keys()))
+        for h_p in ha_player:
+            if h_p in Ha_degree_out.keys() and h_p in Ha_degree_out.keys():
+                Ha_degree_all[h_p]=Ha_degree_in[h_p]+Ha_degree_out[h_p]
+            elif h_p in Ha_degree_out.keys():
+                Ha_degree_all[h_p]=Ha_degree_out[h_p]
+            elif h_p in Ha_degree_in.keys():
+                Ha_degree_all[h_p]=Ha_degree_in[h_p]
+            else:
+                pass
+        for o_p in oppo_player:
+            if o_p in Oppo_degree_in.keys() and o_p in Oppo_degree_out.keys():
+                Oppo_degree_all[o_p]=Oppo_degree_in[o_p]+Oppo_degree_out[o_p]
+            elif o_p in Oppo_degree_out.keys():
+                Oppo_degree_all[o_p]=Oppo_degree_out[o_p]
+            elif o_p in Oppo_degree_in.keys():
+                Oppo_degree_all[h_p]=Oppo_degree_in[h_p]
+            else:
+                pass
+        ha_out=sorted(Ha_degree_out.items(),key=lambda item:item[1],reverse=True)
+        ha_in=sorted(Ha_degree_in.items(),key=lambda item:item[1],reverse=True)
+        oppo_out=sorted(Oppo_degree_out.items(),key=lambda item:item[1],reverse=True)
+        oppo_in=sorted(Oppo_degree_in.items(),key=lambda item:item[1],reverse=True)
+        oppo_all=sorted(Oppo_degree_all.items(),key=lambda item:item[1],reverse=True)
+        ha_all=sorted(Ha_degree_all.items(),key=lambda item:item[1],reverse=True)
+        result.write('*'*20+'第{}场比赛哈士奇队出度：'.format(id)+'*'*20+'\n')
+        for i in ha_out:
+            result.write("{}:{}\n".format(i[0],i[1]))
+        result.write('*'*20+'第{}场比赛哈士奇队入度：'.format(id)+'*'*20+'\n')
+        for i in ha_in:
+            result.write('{}:{}\n'.format(i[0],i[1]))
+        result.write('*'*20+'第{}场比赛哈士奇队总度：'.format(id)+'*'*20+'\n')
+        for i in ha_all:
+            result.write('{}:{}\n'.format(i[0],i[1]))
+        result.write('*'*20+'第{}场比赛反方出度:'.format(id)+'*'*20+'\n')
+        for i in oppo_out:
+            result.write('{}:{}\n'.format(i[0],i[1]))
+        result.write('*'*20+'第{}场比赛反方入度:'.format(id)+'*'*20+'\n')
+        for i in oppo_in:
+            result.write('{}:{}\n'.format(i[0],i[1]))
+        result.write('*'*20+'第{}场比赛反方总度:'.format(id)+'*'*20+'\n')
+        for i in oppo_all:
+            result.write('{}:{}\n'.format(i[0],i[1]))
+    ha_player=set(list(all_match_degree_in.keys())+list(all_match_degree_out.keys()))
+    for p in ha_player:
+        if p in all_match_degree_out.keys() and p in all_match_degree_in.keys():
+            all_match_degree[p]=all_match_degree_in[p]+all_match_degree_out[p]
+        elif p in all_match_degree_out.keys():
+            all_match_degree[p]=all_match_degree_out[p]
+        elif p in all_match_degree_in.keys():
+            all_match_degree[p]=all_match_degree_in[p]
+        else:
+            pass
+    all_match_degree_in=sorted(all_match_degree_in.items(),key=lambda item:item[1],reverse=True)
+    all_match_degree_out=sorted(all_match_degree_out.items(),key=lambda item:item[1],reverse=True)
+    all_match_degree=sorted(all_match_degree.items(),key=lambda item:item[1],reverse=True)
+
+    result.write('*'*20+'哈士奇队总的出度:'+'*'*20+'\n')
+    for i in all_match_degree_out:
+        result.write('{}:{}\n'.format(i[0],i[1]))
+    result.write('*'*20+'哈士奇队总的入度:'+'*'*20+'\n')
+    for i in all_match_degree_in:
+        result.write('{}:{}\n'.format(i[0],i[1]))
+    result.write('*'*20+'哈士奇队总度数:'+'*'*20+'\n')
+    for i in all_match_degree:
+        result.write('{}:{}\n'.format(i[0],i[1]))
+
 if __name__=='__main__':
-    draw_full_events_ball_count(draw_pic=False,analysis=True)
+    conduct_degree()
