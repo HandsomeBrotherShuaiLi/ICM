@@ -13,6 +13,6 @@ pip install -r requirements.txt
 * conduct_new_passing_tables()
 `根据passingevents.csv，总结出每场比赛的Node表和Edge表`  
 * conduct_degree()  
-`根据passingevents.csv，总结出每场比赛的每个球员的出入度以及所有比赛哈士奇队的出入度`
-##其他就不会了
+`根据passingevents.csv，总结出每场比赛的每个球员的出入度以及所有比赛哈士奇队的出入度`  
+## 其他就不会了
 ![image](img/hh.jpg)
