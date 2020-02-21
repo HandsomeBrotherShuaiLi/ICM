@@ -5,7 +5,7 @@
 ```angular2
 pip install -r requirements.txt
 ```    
-# 函数解释
+## 函数解释
 * draw_graph()  
 `根据passingevents.csv文件画出每场比赛双方的传球图`  
 * draw_full_events_ball_count(draw_pic=False,analysis=True)  
