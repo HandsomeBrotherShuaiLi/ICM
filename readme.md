@@ -15,4 +15,5 @@ pip install -r requirements.txt
 * conduct_degree()  
 `根据passingevents.csv，总结出每场比赛的每个球员的出入度以及所有比赛哈士奇队的出入度`  
 ## 其他就不会了
-![image](img/hh.jpg)
+![image](img/hh.jpg)  
+结束
